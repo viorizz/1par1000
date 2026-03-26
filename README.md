@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Un franc par mille — Site de l'initiative
 
-## Getting Started
+Site vitrine multilingue (FR/DE/IT/EN) pour l'initiative populaire fédérale suisse « Un franc par mille ».
 
-First, run the development server:
+## Fonctionnalités
+
+- **Site vitrine** : page d'accueil complète avec argumentaire, chiffres, FAQ
+- **Formulaire de signature** : génération immédiate d'une liste PDF adaptée à la commune
+- **Autocomplétion NPA/commune** : via l'API geo.admin.ch
+- **Formulaire bénévole** : inscription des volontaires
+- **QR Code** : partage facile de la page de signature
+- **CRM admin** : gestion des demandes et bénévoles avec export CSV
+- **Multilingue** : FR, DE, IT, EN
+
+## Stack technique
+
+- **Next.js** (App Router) + TypeScript
+- **Tailwind CSS** v4
+- **pdf-lib** pour la génération PDF côté serveur
+- **better-sqlite3** pour la base de données
+- **geo.admin.ch** pour la recherche NPA/commune
+
+## Démarrage rapide
 
 ```bash
+npm install
+cp .env.example .env
+# Modifier ADMIN_PASSWORD dans .env
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Le site est accessible sur `http://localhost:3000`.
+L'admin est accessible sur `http://localhost:3000/admin` (identifiant: `admin`, mot de passe: celui défini dans `.env`).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Déploiement sur Infomaniak
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Créer un site Node.js sur l'hébergement Infomaniak
+2. Configurer le projet via Git ou upload
+3. Définir les variables d'environnement (ADMIN_PASSWORD, NODE_ENV=production)
+4. Lancer `npm install && npm run build && npm start`
 
-## Learn More
+## Structure du projet
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+src/
+├── app/
+│   ├── [lang]/          # Pages publiques multilingues
+│   ├── admin/           # Espace d'administration
+│   └── api/             # Routes API
+├── components/          # Composants React
+├── dictionaries/        # Traductions FR/DE/IT/EN
+└── lib/                 # Utilitaires (i18n, db, pdf, auth)
+```

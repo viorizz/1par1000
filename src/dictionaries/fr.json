@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "title": "Un franc par mille — Initiative citoyenne, humaniste et apolitique",
+    "description": "Initiative populaire fédérale suisse pour l'instauration d'un micro-impôt sur les transactions électroniques."
+  },
+  "nav": {
+    "conviction": "Notre conviction",
+    "chiffres": "Les chiffres",
+    "pouvoir": "Pouvoir d'achat",
+    "identite": "Notre identité",
+    "questions": "Questions",
+    "signer": "Signer"
+  },
+  "hero": {
+    "surtitre": "Initiative populaire fédérale suisse",
+    "tagline": "Initiative citoyenne, humaniste et apolitique — au service de l'humain",
+    "titre1": "Un franc",
+    "titre2": "par mille.",
+    "sous": "Une conviction simple : les systèmes sont faits pour servir les êtres humains — pas l'inverse.",
+    "slogan1": "Ceux qui brassent des milliards paient",
+    "slogan_strong1": "une miette",
+    "slogan2": "Vous, vous",
+    "slogan_strong2": "respirez",
+    "cta_signer": "Signer l'initiative",
+    "cta_decouvrir": "Notre conviction",
+    "stat_taux": "1‰",
+    "stat_taux_label": "Taux unique",
+    "stat_recettes": "100",
+    "stat_recettes_unit": "Mia",
+    "stat_recettes_label": "Recettes annuelles",
+    "stat_impot": "0",
+    "stat_impot_label": "Impôt fédéral direct"
+  },
+  "preambule": {
+    "label": "Notre conviction",
+    "titre": "Pourquoi nous portons cette initiative",
+    "sous": "Initiative citoyenne, humaniste et apolitique — au service de l'humain",
+    "p1": "Nous, citoyennes et citoyens suisses, portons cette initiative sans appartenance partisane et sans agenda idéologique. Nous la portons parce qu'une conviction simple et ancienne nous rassemble : les systèmes sont faits pour servir les êtres humains — pas l'inverse.",
+    "p2": "Tous ne souffrent pas de la même façon. Mais tous partagent la même réalité : un système fiscal qui prélève sur ceux qui vivent et travaillent, et laisse passer ceux qui ne font que faire fructifier. Rééquilibrer cela, c'est rendre à chacun ce qui lui revient.",
+    "p3": "Le loyer augmente, les primes maladie augmentent, les prix augmentent. Le salaire, lui, reste. Et l'impôt prend sa part avant même que la vie ait pu commencer. Pendant ce temps, cent mille milliards de francs traversent chaque année la Suisse en transactions électroniques sans contribuer significativement à la vie commune. Ce déséquilibre n'est pas une fatalité. Il est le résultat d'un système fiscal conçu à une autre époque, pour une autre économie.",
+    "p4": "Ce n'est pas une question de droite ou de gauche. C'est une question de justice élémentaire. Ce n'est pas une question technique. C'est une question humaine.",
+    "p5": "Un prélèvement d'un franc par mille sur ces transactions suffit à rééquilibrer ce déséquilibre. À supprimer l'impôt fédéral direct qui pèse sur chaque salaire. À alléger la TVA qui frappe chaque achat du quotidien. À rendre à chaque ménage un pouvoir d'achat réel — sans miracle, sans dette, sans hausse des cotisations sociales.",
+    "p6": "Cette initiative n'appartient à aucun parti. Elle appartient à chaque personne qui croit qu'une société juste est une société où le système fiscal sert l'humain — et non l'humain qui sert le système.",
+    "signature": "Le comité d'initiative — citoyennes et citoyens suisses de sensibilités diverses, unis par une conviction humaniste commune."
+  },
+  "chiffres": {
+    "label": "Les faits",
+    "titre": "Des chiffres qui changent tout",
+    "sous": "Initiative citoyenne, humaniste et apolitique — au service de l'humain",
+    "intro": "En Suisse, 100'000 milliards de francs transitent chaque année par des canaux électroniques — 125 fois le PIB du pays — sans contribution fiscale significative. Un seul franc par mille suffit à renverser la logique et à restaurer le pouvoir d'achat de chaque ménage.",
+    "items": [
+      { "nb": "100'000", "titre": "Milliards CHF/an", "desc": "de transactions électroniques. 125 fois le PIB. Aujourd'hui sans contribution fiscale réelle." },
+      { "nb": "1‰", "titre": "Taux proposé", "desc": "Un franc par mille francs. Imperceptible sur chaque transaction. Décisif pour la vie commune." },
+      { "nb": "~100", "titre": "Milliards de recettes/an", "desc": "Pour supprimer l'impôt fédéral direct, réduire la TVA, financer l'AVS durablement." },
+      { "nb": "4'500+", "titre": "CHF par ménage / an", "desc": "Pouvoir d'achat réel restauré. Concret, immédiat, pour chaque famille suisse." },
+      { "nb": "0", "titre": "Impôt fédéral direct", "desc": "Supprimé pour les personnes physiques. Plus de déclaration d'impôt fédérale." },
+      { "nb": "3", "titre": "Impôts supprimés", "desc": "TVA réduite, impôt fédéral direct supprimé, droit de timbre supprimé." }
+    ]
+  },
+  "pouvoir": {
+    "label": "L'impact humain",
+    "titre": "Votre pouvoir d'achat, concrètement",
+    "sous": "Ce que cette initiative change dans votre quotidien",
+    "intro": "Ce ne sont pas des abstractions comptables. Ce sont des francs qui restent dans votre poche — chaque mois, chaque année.",
+    "items": [
+      { "montant": "–CHF 1'800", "desc": "Impôt fédéral direct supprimé pour un ménage avec revenu médian — économie annuelle directe." },
+      { "montant": "–8,1%", "desc": "TVA réduite sur chaque achat du quotidien — nourriture, vêtements, transports, médicaments." },
+      { "montant": "+Stabilité", "desc": "AVS financée durablement sans hausse des cotisations — sécurité pour les actifs et les retraités." },
+      { "montant": "+Temps", "desc": "Déclaration d'impôt fédérale supprimée — des heures retrouvées chaque année." }
+    ],
+    "box_montant": "~CHF 6",
+    "box_label": "Micro-taxe mensuelle sur un salaire de CHF 6'000",
+    "box_contre": "contre un impôt fédéral direct annuel moyen de",
+    "box_valeur": "~CHF 1'800",
+    "box_conclusion": "Le calcul est simple. L'effet est humain."
+  },
+  "identite": {
+    "label": "Notre identité",
+    "titre": "Pourquoi cette initiative est différente",
+    "sous": "Citoyenne, humaniste, apolitique — trois mots qui ne sont pas des slogans",
+    "items": [
+      { "titre": "Citoyenne", "desc": "Elle ne vient pas d'un parti, d'un lobby ni d'un groupe de pression. Elle vient de citoyens qui exercent un droit constitutionnel fondamental — proposer directement une modification de la loi fondamentale de leur pays." },
+      { "titre": "Humaniste", "desc": "Elle part d'une conviction ancienne et simple : les institutions et les systèmes fiscaux sont des outils créés par les humains pour servir les humains. Quand ils ne remplissent plus ce rôle, il faut les corriger." },
+      { "titre": "Apolitique", "desc": "Elle n'est pas neutre moralement — elle a des valeurs claires. Mais elle ne doit rien à aucun camp. Elle réduit les impôts sur le travail (ce que la droite demande) et taxe ce qui ne fait que fructifier (ce que la gauche demande). Elle appartient à tous." },
+      { "titre": "Au service de l'humain", "desc": "Derrière chaque chiffre, il y a une réalité concrète : un loyer payé, une prime maladie absorbée, une fin de mois respirée. Un pouvoir d'achat restauré. C'est pour cela que cette initiative existe." }
+    ]
+  },
+  "comparaison": {
+    "label": "Le changement",
+    "titre": "Avant et après",
+    "intro": "Ce qui change pour chaque citoyen, sans distinction de sensibilité politique.",
+    "col_avant": "Aujourd'hui",
+    "col_apres": "Avec cette initiative",
+    "rows": [
+      { "label": "Impôt fédéral direct", "avant": "Prélevé sur chaque salaire", "apres": "Supprimé pour les personnes physiques" },
+      { "label": "TVA", "avant": "8,1% sur la plupart des achats", "apres": "Réduite — pouvoir d'achat restauré" },
+      { "label": "Droit de timbre", "avant": "Sur les transactions boursières", "apres": "Supprimé" },
+      { "label": "Déclaration d'impôt", "avant": "Obligation annuelle complexe", "apres": "Plus nécessaire au niveau fédéral" },
+      { "label": "Flux spéculatifs", "avant": "Aucune taxation significative", "apres": "Taxés comme toute transaction" },
+      { "label": "AVS", "avant": "Sous pression, hausses récurrentes", "apres": "Financée durablement" },
+      { "label": "Pouvoir d'achat", "avant": "S'érode chaque année", "apres": "Restauré pour chaque ménage" }
+    ]
+  },
+  "objections": {
+    "label": "Questions fréquentes",
+    "titre": "Ce que disent les adversaires — et la vérité",
+    "intro": "Une initiative humaniste et apolitique se doit de répondre honnêtement à chaque objection.",
+    "items": [
+      { "q": "« La place financière va fuir. »", "r": "Hong Kong, Taïwan et le Royaume-Uni taxent les transactions depuis des décennies. Leurs places financières restent parmi les plus dynamiques du monde. L'économie réelle n'ira nulle part." },
+      { "q": "« Les 100'000 milliards sont invérifiables. »", "r": "La première année est une année d'audit à taux quasi nul. Aucun impôt n'est supprimé avant certification des chiffres. L'initiative est construite sur la prudence." },
+      { "q": "« C'est une taxe Tobin déguisée. »", "r": "Non. La taxe Tobin ciblait les devises. Cette initiative couvre tous les paiements électroniques à un taux cent fois plus faible — ce qui la rend inédite et bien plus juste." },
+      { "q": "« Les riches en profiteront aussi. »", "r": "Tous ne souffrent pas de la même façon. Mais l'allègement profite à tous — et prioritairement à ceux dont le pouvoir d'achat est le plus contraint." },
+      { "q": "« C'est une initiative de gauche. »", "r": "Elle réduit les impôts sur le travail (ce que la droite demande) et taxe ce qui ne fait que fructifier (ce que la gauche demande). Elle est humaniste et apolitique." },
+      { "q": "« Les cantons perdront leur autonomie. »", "r": "L'initiative ne touche que les impôts fédéraux. Chaque canton reste entièrement maître de sa fiscalité propre." }
+    ]
+  },
+  "signer_section": {
+    "label": "Agir",
+    "titre": "Comment signer",
+    "sous": "Un geste citoyen, humaniste, apolitique",
+    "intro": "En signant, vous n'adhérez à aucun parti. Vous affirmez simplement qu'une société juste est une société où le système fiscal sert l'humain.",
+    "etapes": [
+      { "titre": "Téléchargez la liste pour votre commune", "desc": "Indiquez votre commune. Vous recevez une liste pré-remplie correspondante." },
+      { "titre": "Remplissez à la main", "desc": "Nom, prénom, date de naissance et signature — tout manuscrit, à l'encre." },
+      { "titre": "Faites signer vos proches", "desc": "Jusqu'à 20 signatures par feuille, toutes de la même commune." },
+      { "titre": "Renvoyez-nous la liste", "desc": "Par courrier avec l'enveloppe-retour fournie, ou à un stand de récolte près de chez vous." }
+    ]
+  },
+  "signer_page": {
+    "titre": "Signez",
+    "titre_accent": "maintenant",
+    "intro": "Une conviction, trois façons d'agir — un geste citoyen, humaniste, apolitique — selon votre situation. Choisissez celle qui vous convient.",
+    "signatures_label": "Signatures récoltées",
+    "objectif_label": "Objectif légal",
+    "jours_label": "Jours restants",
+    "option1_titre": "Je télécharge et signe",
+    "option1_sous": "Idéal pour vous et vos proches",
+    "option1_desc": "Recevez la liste de signatures pré-remplie pour votre commune. Signez avec vos voisins et amis, puis renvoyez-nous la liste.",
+    "option2_titre": "Je m'engage comme bénévole",
+    "option2_sous": "Pour aller plus loin",
+    "option2_desc": "Rejoignez le réseau de récolteurs. Nous vous contactons pour organiser votre engagement selon vos disponibilités et votre région.",
+    "option3_titre": "Je partage le QR code",
+    "option3_sous": "Pour diffuser largement",
+    "option3_desc": "Partagez ce QR code avec vos proches, affichez-le dans votre local, imprimez-le sur vos supports de campagne.",
+    "form_canton": "Votre canton",
+    "form_commune": "Votre commune",
+    "form_npa": "Code postal (NPA)",
+    "form_nom": "Prénom et nom",
+    "form_email": "Votre email",
+    "form_choisir": "— Choisir —",
+    "form_placeholder_commune": "ex. Yverdon-les-Bains",
+    "form_placeholder_npa": "ex. 1400",
+    "form_placeholder_nom": "Prénom Nom",
+    "form_placeholder_email": "vous@exemple.ch",
+    "form_submit": "Recevoir ma liste (PDF)",
+    "form_success": "Votre liste a été générée avec succès !",
+    "form_note": "En signant, vous n'adhérez à aucun parti. Vous exercez un droit citoyen fondamental.",
+    "benevole_nom": "Prénom et nom",
+    "benevole_email": "Email",
+    "benevole_commune": "Commune et canton",
+    "benevole_type": "Type d'engagement souhaité",
+    "benevole_types": [
+      "Stand de récolte (gare, marché)",
+      "Référent communal (réseau de proximité)",
+      "Ambassadeur dans mon entreprise / association",
+      "Soutien numérique (réseaux sociaux)",
+      "Expert ou témoin professionnel",
+      "Logistique et coordination"
+    ],
+    "benevole_submit": "Je m'inscris",
+    "benevole_success": "Inscription enregistrée — nous vous contactons sous 48h !",
+    "qr_instruction": "Scannez avec l'appareil photo de votre téléphone — aucune application nécessaire.",
+    "qr_download": "Télécharger le QR code"
+  },
+  "regles": {
+    "titre": "Règles à respecter pour que votre signature soit valide",
+    "sous": "Une signature invalide est une signature perdue. Ces règles sont simples mais absolues.",
+    "items": [
+      { "titre": "Même commune sur toute la feuille", "desc": "Tous les signataires d'une même feuille doivent être domiciliés dans la même commune. Ne mélangez pas les communes." },
+      { "titre": "Tout à la main", "desc": "Nom, prénom, date de naissance et signature doivent être écrits à la main, à l'encre. Pas d'impression, pas de tampon." },
+      { "titre": "Citoyens suisses majeurs uniquement", "desc": "Seuls les ressortissants suisses de 18 ans révolus inscrits au registre électoral de leur commune peuvent signer." },
+      { "titre": "Une seule fois", "desc": "Signer deux fois — même sur deux feuilles différentes — annule les deux signatures. Une seule signature par personne." },
+      { "titre": "Après la publication officielle", "desc": "Aucune signature récoltée avant la publication dans la Feuille fédérale n'est valable. La date figure sur chaque liste." },
+      { "titre": "Renvoi avant l'échéance", "desc": "Les listes doivent nous parvenir assez tôt pour que nous puissions les envoyer aux communes pour attestation. Anticipez." }
+    ]
+  },
+  "contact": {
+    "titre": "Une question ? Un problème avec votre liste ?",
+    "desc": "Le comité d'initiative répond à toutes vos questions dans les 48 heures.",
+    "email": "contact@1parmille.ch"
+  },
+  "footer": {
+    "tagline": "Initiative citoyenne, humaniste et apolitique — au service de l'humain",
+    "desc": "Initiative populaire fédérale pour l'instauration d'un micro-impôt sur les transactions électroniques. Portée par des citoyens suisses sans appartenance partisane, unis par une conviction humaniste commune.",
+    "nav_titre": "Navigation",
+    "docs_titre": "Documents",
+    "doc_texte": "Texte de l'initiative (PDF)",
+    "doc_dossier": "Dossier complet (PDF)",
+    "doc_note": "Note économique (PDF)",
+    "doc_preambule": "Préambule (PDF)",
+    "doc_signer": "Signer l'initiative",
+    "legal": "© Comité d'initiative « Un franc par mille » — Initiative citoyenne, humaniste et apolitique",
+    "retour": "← Retour au site"
+  },
+  "common": {
+    "loading": "Chargement…",
+    "error": "Une erreur est survenue.",
+    "required": "Ce champ est obligatoire.",
+    "back": "Retour"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "title": "Ein Franken pro Tausend — Bürgerinitiative, humanistisch und überparteilich",
+    "description": "Eidgenössische Volksinitiative für die Einführung einer Mikrosteuer auf elektronische Transaktionen."
+  },
+  "nav": {
+    "conviction": "Unsere Überzeugung",
+    "chiffres": "Die Zahlen",
+    "pouvoir": "Kaufkraft",
+    "identite": "Unsere Identität",
+    "questions": "Fragen",
+    "signer": "Unterschreiben"
+  },
+  "hero": {
+    "surtitre": "Eidgenössische Volksinitiative",
+    "tagline": "Bürgerinitiative, humanistisch und überparteilich — im Dienst des Menschen",
+    "titre1": "Ein Franken",
+    "titre2": "pro Tausend.",
+    "sous": "Eine einfache Überzeugung: Systeme sind dazu da, den Menschen zu dienen — nicht umgekehrt.",
+    "slogan1": "Wer Milliarden bewegt, zahlt",
+    "slogan_strong1": "einen Bruchteil",
+    "slogan2": "Sie hingegen",
+    "slogan_strong2": "atmen auf",
+    "cta_signer": "Initiative unterschreiben",
+    "cta_decouvrir": "Unsere Überzeugung",
+    "stat_taux": "1‰",
+    "stat_taux_label": "Einheitssatz",
+    "stat_recettes": "100",
+    "stat_recettes_unit": "Mrd.",
+    "stat_recettes_label": "Jährliche Einnahmen",
+    "stat_impot": "0",
+    "stat_impot_label": "Direkte Bundessteuer"
+  },
+  "preambule": {
+    "label": "Unsere Überzeugung",
+    "titre": "Warum wir diese Initiative tragen",
+    "sous": "Bürgerinitiative, humanistisch und überparteilich — im Dienst des Menschen",
+    "p1": "Wir, Schweizer Bürgerinnen und Bürger, tragen diese Initiative ohne Parteizugehörigkeit und ohne ideologische Agenda. Wir tragen sie, weil uns eine einfache und altbewährte Überzeugung vereint: Systeme sind dazu da, den Menschen zu dienen — nicht umgekehrt.",
+    "p2": "Nicht alle leiden auf dieselbe Weise. Doch alle teilen dieselbe Realität: ein Steuersystem, das jene belastet, die leben und arbeiten, und jene verschont, die nur ihr Vermögen vermehren. Dieses Gleichgewicht wiederherzustellen heisst, jedem das zurückzugeben, was ihm zusteht.",
+    "p3": "Die Mieten steigen, die Krankenkassenprämien steigen, die Preise steigen. Der Lohn bleibt gleich. Und die Steuern nehmen ihren Anteil, noch bevor das Leben richtig beginnen kann. Gleichzeitig durchqueren jedes Jahr hunderttausend Milliarden Franken die Schweiz in elektronischen Transaktionen, ohne einen nennenswerten Beitrag zum Gemeinwohl zu leisten. Dieses Ungleichgewicht ist kein Schicksal. Es ist das Ergebnis eines Steuersystems, das für eine andere Zeit und eine andere Wirtschaft konzipiert wurde.",
+    "p4": "Das ist keine Frage von rechts oder links. Es ist eine Frage elementarer Gerechtigkeit. Es ist keine technische Frage. Es ist eine menschliche Frage.",
+    "p5": "Eine Abgabe von einem Franken pro Tausend auf diese Transaktionen genügt, um dieses Ungleichgewicht zu korrigieren. Um die direkte Bundessteuer abzuschaffen, die auf jedem Lohn lastet. Um die Mehrwertsteuer zu senken, die jeden Alltagseinkauf verteuert. Um jedem Haushalt echte Kaufkraft zurückzugeben — ohne Wunder, ohne Schulden, ohne Erhöhung der Sozialabgaben.",
+    "p6": "Diese Initiative gehört keiner Partei. Sie gehört jedem Menschen, der daran glaubt, dass eine gerechte Gesellschaft eine Gesellschaft ist, in der das Steuersystem dem Menschen dient — und nicht der Mensch dem System.",
+    "signature": "Das Initiativkomitee — Schweizer Bürgerinnen und Bürger unterschiedlicher Überzeugungen, vereint durch eine gemeinsame humanistische Haltung."
+  },
+  "chiffres": {
+    "label": "Die Fakten",
+    "titre": "Zahlen, die alles verändern",
+    "sous": "Bürgerinitiative, humanistisch und überparteilich — im Dienst des Menschen",
+    "intro": "In der Schweiz fliessen jährlich 100'000 Milliarden Franken über elektronische Kanäle — 125-mal das BIP des Landes — ohne nennenswerten steuerlichen Beitrag. Ein einziger Franken pro Tausend genügt, um die Logik umzukehren und die Kaufkraft jedes Haushalts wiederherzustellen.",
+    "items": [
+      { "nb": "100'000", "titre": "Milliarden CHF/Jahr", "desc": "an elektronischen Transaktionen. 125-mal das BIP. Heute ohne realen steuerlichen Beitrag." },
+      { "nb": "1‰", "titre": "Vorgeschlagener Satz", "desc": "Ein Franken pro tausend Franken. Kaum spürbar bei jeder Transaktion. Entscheidend für das Gemeinwohl." },
+      { "nb": "~100", "titre": "Milliarden Einnahmen/Jahr", "desc": "Um die direkte Bundessteuer abzuschaffen, die MWST zu senken und die AHV nachhaltig zu finanzieren." },
+      { "nb": "4'500+", "titre": "CHF pro Haushalt / Jahr", "desc": "Echte Kaufkraft wiederhergestellt. Konkret, sofort, für jede Schweizer Familie." },
+      { "nb": "0", "titre": "Direkte Bundessteuer", "desc": "Abgeschafft für natürliche Personen. Keine Bundessteuererklärung mehr." },
+      { "nb": "3", "titre": "Abgeschaffte Steuern", "desc": "MWST gesenkt, direkte Bundessteuer abgeschafft, Stempelabgabe abgeschafft." }
+    ]
+  },
+  "pouvoir": {
+    "label": "Die menschliche Wirkung",
+    "titre": "Ihre Kaufkraft — ganz konkret",
+    "sous": "Was diese Initiative in Ihrem Alltag verändert",
+    "intro": "Das sind keine buchhalterischen Abstraktionen. Das sind Franken, die in Ihrer Tasche bleiben — jeden Monat, jedes Jahr.",
+    "items": [
+      { "montant": "–CHF 1'800", "desc": "Direkte Bundessteuer abgeschafft für einen Haushalt mit Medianeinkommen — direkte jährliche Ersparnis." },
+      { "montant": "–8,1%", "desc": "MWST gesenkt auf jeden Alltagseinkauf — Lebensmittel, Kleidung, Transport, Medikamente." },
+      { "montant": "+Stabilität", "desc": "AHV nachhaltig finanziert ohne Erhöhung der Beiträge — Sicherheit für Erwerbstätige und Rentner." },
+      { "montant": "+Zeit", "desc": "Bundessteuererklärung abgeschafft — jedes Jahr Stunden zurückgewonnen." }
+    ],
+    "box_montant": "~CHF 6",
+    "box_label": "Monatliche Mikrosteuer auf einem Lohn von CHF 6'000",
+    "box_contre": "gegenüber einer durchschnittlichen jährlichen direkten Bundessteuer von",
+    "box_valeur": "~CHF 1'800",
+    "box_conclusion": "Die Rechnung ist einfach. Die Wirkung ist menschlich."
+  },
+  "identite": {
+    "label": "Unsere Identität",
+    "titre": "Warum diese Initiative anders ist",
+    "sous": "Bürgerlich, humanistisch, überparteilich — drei Worte, die keine Slogans sind",
+    "items": [
+      { "titre": "Bürgerlich", "desc": "Sie kommt nicht von einer Partei, einer Lobby oder einer Interessengruppe. Sie kommt von Bürgerinnen und Bürgern, die ein verfassungsmässiges Grundrecht ausüben — direkt eine Änderung des Grundgesetzes ihres Landes vorzuschlagen." },
+      { "titre": "Humanistisch", "desc": "Sie geht von einer alten und einfachen Überzeugung aus: Institutionen und Steuersysteme sind Werkzeuge, die von Menschen für Menschen geschaffen wurden. Wenn sie diese Aufgabe nicht mehr erfüllen, müssen sie korrigiert werden." },
+      { "titre": "Überparteilich", "desc": "Sie ist nicht moralisch neutral — sie hat klare Werte. Aber sie verdankt keinem Lager etwas. Sie senkt die Steuern auf Arbeit (was die Rechte fordert) und besteuert, was nur Rendite erwirtschaftet (was die Linke fordert). Sie gehört allen." },
+      { "titre": "Im Dienst des Menschen", "desc": "Hinter jeder Zahl steht eine konkrete Realität: eine bezahlte Miete, eine bewältigte Krankenkassenprämie, ein aufgeatmetes Monatsende. Wiederhergestellte Kaufkraft. Dafür gibt es diese Initiative." }
+    ]
+  },
+  "comparaison": {
+    "label": "Die Veränderung",
+    "titre": "Vorher und nachher",
+    "intro": "Was sich für jede Bürgerin und jeden Bürger ändert, unabhängig von der politischen Haltung.",
+    "col_avant": "Heute",
+    "col_apres": "Mit dieser Initiative",
+    "rows": [
+      { "label": "Direkte Bundessteuer", "avant": "Auf jedem Lohn erhoben", "apres": "Abgeschafft für natürliche Personen" },
+      { "label": "MWST", "avant": "8,1% auf den meisten Einkäufen", "apres": "Gesenkt — Kaufkraft wiederhergestellt" },
+      { "label": "Stempelabgabe", "avant": "Auf Börsentransaktionen", "apres": "Abgeschafft" },
+      { "label": "Steuererklärung", "avant": "Komplexe jährliche Pflicht", "apres": "Auf Bundesebene nicht mehr nötig" },
+      { "label": "Spekulative Geldflüsse", "avant": "Keine nennenswerte Besteuerung", "apres": "Besteuert wie jede Transaktion" },
+      { "label": "AHV", "avant": "Unter Druck, wiederkehrende Erhöhungen", "apres": "Nachhaltig finanziert" },
+      { "label": "Kaufkraft", "avant": "Schwindet jedes Jahr", "apres": "Für jeden Haushalt wiederhergestellt" }
+    ]
+  },
+  "objections": {
+    "label": "Häufige Fragen",
+    "titre": "Was die Gegner sagen — und die Wahrheit",
+    "intro": "Eine humanistische und überparteiliche Initiative muss jede Einwand ehrlich beantworten.",
+    "items": [
+      { "q": "«Der Finanzplatz wird abwandern.»", "r": "Hongkong, Taiwan und das Vereinigte Königreich besteuern Transaktionen seit Jahrzehnten. Ihre Finanzplätze gehören nach wie vor zu den dynamischsten der Welt. Die Realwirtschaft wird nirgendwohin gehen." },
+      { "q": "«Die 100'000 Milliarden sind nicht überprüfbar.»", "r": "Das erste Jahr ist ein Audit-Jahr mit einem nahezu Null-Satz. Keine Steuer wird abgeschafft, bevor die Zahlen zertifiziert sind. Die Initiative ist auf Vorsicht aufgebaut." },
+      { "q": "«Das ist eine getarnte Tobin-Steuer.»", "r": "Nein. Die Tobin-Steuer zielte auf Devisen. Diese Initiative erfasst alle elektronischen Zahlungen zu einem hundertmal niedrigeren Satz — was sie einzigartig und weitaus gerechter macht." },
+      { "q": "«Die Reichen profitieren auch davon.»", "r": "Nicht alle leiden auf dieselbe Weise. Doch die Entlastung kommt allen zugute — und in erster Linie jenen, deren Kaufkraft am stärksten eingeschränkt ist." },
+      { "q": "«Das ist eine linke Initiative.»", "r": "Sie senkt die Steuern auf Arbeit (was die Rechte fordert) und besteuert, was nur Rendite erwirtschaftet (was die Linke fordert). Sie ist humanistisch und überparteilich." },
+      { "q": "«Die Kantone verlieren ihre Autonomie.»", "r": "Die Initiative betrifft ausschliesslich die Bundessteuern. Jeder Kanton bleibt vollständig Herr über seine eigene Steuerhoheit." }
+    ]
+  },
+  "signer_section": {
+    "label": "Handeln",
+    "titre": "So unterschreiben Sie",
+    "sous": "Eine bürgerliche, humanistische, überparteiliche Geste",
+    "intro": "Mit Ihrer Unterschrift treten Sie keiner Partei bei. Sie bekräftigen einfach, dass eine gerechte Gesellschaft eine Gesellschaft ist, in der das Steuersystem dem Menschen dient.",
+    "etapes": [
+      { "titre": "Laden Sie die Liste für Ihre Gemeinde herunter", "desc": "Geben Sie Ihre Gemeinde an. Sie erhalten eine vorausgefüllte Unterschriftenliste." },
+      { "titre": "Füllen Sie alles von Hand aus", "desc": "Name, Vorname, Geburtsdatum und Unterschrift — alles handschriftlich, mit Tinte." },
+      { "titre": "Lassen Sie Ihr Umfeld unterschreiben", "desc": "Bis zu 20 Unterschriften pro Bogen, alle aus derselben Gemeinde." },
+      { "titre": "Senden Sie uns die Liste zurück", "desc": "Per Post mit dem beiliegenden Rückantwortcouvert oder an einem Sammelstand in Ihrer Nähe." }
+    ]
+  },
+  "signer_page": {
+    "titre": "Unterschreiben Sie",
+    "titre_accent": "jetzt",
+    "intro": "Eine Überzeugung, drei Möglichkeiten zu handeln — eine bürgerliche, humanistische, überparteiliche Geste — je nach Ihrer Situation. Wählen Sie die passende Option.",
+    "signatures_label": "Gesammelte Unterschriften",
+    "objectif_label": "Gesetzliches Ziel",
+    "jours_label": "Verbleibende Tage",
+    "option1_titre": "Ich lade herunter und unterschreibe",
+    "option1_sous": "Ideal für Sie und Ihr Umfeld",
+    "option1_desc": "Erhalten Sie die vorausgefüllte Unterschriftenliste für Ihre Gemeinde. Unterschreiben Sie zusammen mit Nachbarn und Freunden und senden Sie uns die Liste zurück.",
+    "option2_titre": "Ich engagiere mich als Freiwillige/r",
+    "option2_sous": "Um weiterzugehen",
+    "option2_desc": "Treten Sie dem Sammlernetzwerk bei. Wir kontaktieren Sie, um Ihr Engagement nach Ihren Verfügbarkeiten und Ihrer Region zu organisieren.",
+    "option3_titre": "Ich teile den QR-Code",
+    "option3_sous": "Für eine breite Verbreitung",
+    "option3_desc": "Teilen Sie diesen QR-Code mit Ihrem Umfeld, hängen Sie ihn in Ihren Räumlichkeiten aus, drucken Sie ihn auf Ihre Kampagnenmaterialien.",
+    "form_canton": "Ihr Kanton",
+    "form_commune": "Ihre Gemeinde",
+    "form_npa": "Postleitzahl (PLZ)",
+    "form_nom": "Vorname und Name",
+    "form_email": "Ihre E-Mail-Adresse",
+    "form_choisir": "— Auswählen —",
+    "form_placeholder_commune": "z. B. Bern",
+    "form_placeholder_npa": "z. B. 3000",
+    "form_placeholder_nom": "Vorname Name",
+    "form_placeholder_email": "sie@beispiel.ch",
+    "form_submit": "Meine Liste erhalten (PDF)",
+    "form_success": "Ihre Liste wurde erfolgreich erstellt!",
+    "form_note": "Mit Ihrer Unterschrift treten Sie keiner Partei bei. Sie üben ein grundlegendes Bürgerrecht aus.",
+    "benevole_nom": "Vorname und Name",
+    "benevole_email": "E-Mail",
+    "benevole_commune": "Gemeinde und Kanton",
+    "benevole_type": "Gewünschte Art des Engagements",
+    "benevole_types": [
+      "Sammelstand (Bahnhof, Markt)",
+      "Gemeindereferent/in (Nachbarschaftsnetzwerk)",
+      "Botschafter/in in meinem Unternehmen / Verein",
+      "Digitale Unterstützung (soziale Medien)",
+      "Fachperson oder Berufszeuge/-zeugin",
+      "Logistik und Koordination"
+    ],
+    "benevole_submit": "Ich melde mich an",
+    "benevole_success": "Anmeldung registriert — wir kontaktieren Sie innerhalb von 48 Stunden!",
+    "qr_instruction": "Scannen Sie mit der Kamera Ihres Telefons — keine App erforderlich.",
+    "qr_download": "QR-Code herunterladen"
+  },
+  "regles": {
+    "titre": "Regeln, damit Ihre Unterschrift gültig ist",
+    "sous": "Eine ungültige Unterschrift ist eine verlorene Unterschrift. Diese Regeln sind einfach, aber absolut.",
+    "items": [
+      { "titre": "Gleiche Gemeinde auf dem ganzen Bogen", "desc": "Alle Unterzeichnenden eines Bogens müssen in derselben Gemeinde wohnhaft sein. Mischen Sie keine Gemeinden." },
+      { "titre": "Alles von Hand", "desc": "Name, Vorname, Geburtsdatum und Unterschrift müssen handschriftlich mit Tinte geschrieben werden. Kein Ausdruck, kein Stempel." },
+      { "titre": "Nur volljährige Schweizer Staatsbürger", "desc": "Nur Schweizer Staatsangehörige ab 18 Jahren, die im Stimmregister ihrer Gemeinde eingetragen sind, dürfen unterschreiben." },
+      { "titre": "Nur einmal", "desc": "Zweimal unterschreiben — auch auf zwei verschiedenen Bögen — macht beide Unterschriften ungültig. Eine einzige Unterschrift pro Person." },
+      { "titre": "Nach der offiziellen Publikation", "desc": "Keine vor der Veröffentlichung im Bundesblatt gesammelte Unterschrift ist gültig. Das Datum steht auf jeder Liste." },
+      { "titre": "Rücksendung vor Ablauf der Frist", "desc": "Die Listen müssen uns rechtzeitig erreichen, damit wir sie zur Beglaubigung an die Gemeinden weiterleiten können. Planen Sie voraus." }
+    ]
+  },
+  "contact": {
+    "titre": "Eine Frage? Ein Problem mit Ihrer Liste?",
+    "desc": "Das Initiativkomitee beantwortet alle Ihre Fragen innerhalb von 48 Stunden.",
+    "email": "contact@1parmille.ch"
+  },
+  "footer": {
+    "tagline": "Bürgerinitiative, humanistisch und überparteilich — im Dienst des Menschen",
+    "desc": "Eidgenössische Volksinitiative für die Einführung einer Mikrosteuer auf elektronische Transaktionen. Getragen von Schweizer Bürgerinnen und Bürgern ohne Parteizugehörigkeit, vereint durch eine gemeinsame humanistische Überzeugung.",
+    "nav_titre": "Navigation",
+    "docs_titre": "Dokumente",
+    "doc_texte": "Initiativtext (PDF)",
+    "doc_dossier": "Vollständiges Dossier (PDF)",
+    "doc_note": "Wirtschaftliche Analyse (PDF)",
+    "doc_preambule": "Präambel (PDF)",
+    "doc_signer": "Initiative unterschreiben",
+    "legal": "© Initiativkomitee «Ein Franken pro Tausend» — Bürgerinitiative, humanistisch und überparteilich",
+    "retour": "← Zurück zur Webseite"
+  },
+  "common": {
+    "loading": "Wird geladen…",
+    "error": "Ein Fehler ist aufgetreten.",
+    "required": "Dieses Feld ist erforderlich.",
+    "back": "Zurück"
+  }
+}

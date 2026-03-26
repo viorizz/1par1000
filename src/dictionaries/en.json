@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "title": "One franc per thousand \u2014 A citizen-led, humanist and non-partisan initiative",
+    "description": "Swiss federal popular initiative for the introduction of a micro-tax on electronic transactions."
+  },
+  "nav": {
+    "conviction": "Our conviction",
+    "chiffres": "The numbers",
+    "pouvoir": "Purchasing power",
+    "identite": "Our identity",
+    "questions": "Questions",
+    "signer": "Sign"
+  },
+  "hero": {
+    "surtitre": "Swiss federal popular initiative",
+    "tagline": "A citizen-led, humanist and non-partisan initiative \u2014 in service of people",
+    "titre1": "One franc",
+    "titre2": "per thousand.",
+    "sous": "A simple conviction: systems are made to serve human beings \u2014 not the other way around.",
+    "slogan1": "Those who move billions pay",
+    "slogan_strong1": "a crumb",
+    "slogan2": "You, you",
+    "slogan_strong2": "breathe",
+    "cta_signer": "Sign the initiative",
+    "cta_decouvrir": "Our conviction",
+    "stat_taux": "1\u2030",
+    "stat_taux_label": "Single rate",
+    "stat_recettes": "100",
+    "stat_recettes_unit": "Bn",
+    "stat_recettes_label": "Annual revenue",
+    "stat_impot": "0",
+    "stat_impot_label": "Direct federal tax"
+  },
+  "preambule": {
+    "label": "Our conviction",
+    "titre": "Why we are carrying this initiative",
+    "sous": "A citizen-led, humanist and non-partisan initiative \u2014 in service of people",
+    "p1": "We, Swiss citizens, carry this initiative without partisan affiliation and without ideological agenda. We carry it because a simple and long-held conviction unites us: systems are made to serve human beings \u2014 not the other way around.",
+    "p2": "Not everyone suffers in the same way. But everyone shares the same reality: a tax system that levies on those who live and work, and lets pass those who merely grow their wealth. To rebalance this is to give back to each person what is rightfully theirs.",
+    "p3": "Rent goes up, health insurance premiums go up, prices go up. Wages stay the same. And taxes take their share before life has even begun. Meanwhile, one hundred trillion francs flow through Switzerland every year in electronic transactions without contributing significantly to the common good. This imbalance is not inevitable. It is the result of a tax system designed in another era, for another economy.",
+    "p4": "This is not a question of right or left. It is a question of basic justice. This is not a technical question. It is a human question.",
+    "p5": "A levy of one franc per thousand on these transactions is enough to rebalance this disparity. To abolish the direct federal tax that weighs on every salary. To reduce the VAT that hits every daily purchase. To give every household real purchasing power back \u2014 without miracles, without debt, without raising social contributions.",
+    "p6": "This initiative does not belong to any party. It belongs to every person who believes that a just society is one where the tax system serves people \u2014 and not people who serve the system.",
+    "signature": "The initiative committee \u2014 Swiss citizens of diverse perspectives, united by a shared humanist conviction."
+  },
+  "chiffres": {
+    "label": "The facts",
+    "titre": "Numbers that change everything",
+    "sous": "A citizen-led, humanist and non-partisan initiative \u2014 in service of people",
+    "intro": "In Switzerland, CHF 100 trillion flow through electronic channels every year \u2014 125 times the country's GDP \u2014 with no significant tax contribution. Just one franc per thousand is enough to reverse the logic and restore every household's purchasing power.",
+    "items": [
+      { "nb": "100,000", "titre": "Billion CHF/year", "desc": "in electronic transactions. 125 times the GDP. Currently with no real tax contribution." },
+      { "nb": "1\u2030", "titre": "Proposed rate", "desc": "One franc per thousand francs. Imperceptible on each transaction. Decisive for the common good." },
+      { "nb": "~100", "titre": "Billion in revenue/year", "desc": "To abolish direct federal tax, reduce VAT, and sustainably fund the AHV (old-age insurance)." },
+      { "nb": "4,500+", "titre": "CHF per household/year", "desc": "Real purchasing power restored. Concrete, immediate, for every Swiss family." },
+      { "nb": "0", "titre": "Direct federal tax", "desc": "Abolished for individuals. No more federal tax return." },
+      { "nb": "3", "titre": "Taxes eliminated", "desc": "VAT reduced, direct federal tax abolished, stamp duty abolished." }
+    ]
+  },
+  "pouvoir": {
+    "label": "The human impact",
+    "titre": "Your purchasing power, in concrete terms",
+    "sous": "What this initiative changes in your daily life",
+    "intro": "These are not accounting abstractions. These are francs that stay in your pocket \u2014 every month, every year.",
+    "items": [
+      { "montant": "\u2013CHF 1,800", "desc": "Direct federal tax abolished for a median-income household \u2014 direct annual savings." },
+      { "montant": "\u20138.1%", "desc": "VAT reduced on every daily purchase \u2014 food, clothing, transport, medicine." },
+      { "montant": "+Stability", "desc": "AHV funded sustainably without raising contributions \u2014 security for workers and retirees alike." },
+      { "montant": "+Time", "desc": "Federal tax return abolished \u2014 hours reclaimed every year." }
+    ],
+    "box_montant": "~CHF 6",
+    "box_label": "Monthly micro-tax on a salary of CHF 6,000",
+    "box_contre": "versus an average annual direct federal tax of",
+    "box_valeur": "~CHF 1,800",
+    "box_conclusion": "The calculation is simple. The effect is human."
+  },
+  "identite": {
+    "label": "Our identity",
+    "titre": "Why this initiative is different",
+    "sous": "Citizen-led, humanist, non-partisan \u2014 three words that are not slogans",
+    "items": [
+      { "titre": "Citizen-led", "desc": "It does not come from a party, a lobby or a pressure group. It comes from citizens exercising a fundamental constitutional right \u2014 to directly propose an amendment to their country's fundamental law." },
+      { "titre": "Humanist", "desc": "It stems from a long-held and simple conviction: institutions and tax systems are tools created by humans to serve humans. When they no longer fulfil that role, they must be corrected." },
+      { "titre": "Non-partisan", "desc": "It is not morally neutral \u2014 it has clear values. But it owes nothing to any camp. It reduces taxes on labour (what the right demands) and taxes what merely grows wealth (what the left demands). It belongs to everyone." },
+      { "titre": "In service of people", "desc": "Behind every number, there is a concrete reality: rent paid, a health insurance premium absorbed, the end of the month made easier. Purchasing power restored. That is why this initiative exists." }
+    ]
+  },
+  "comparaison": {
+    "label": "The change",
+    "titre": "Before and after",
+    "intro": "What changes for every citizen, regardless of political affiliation.",
+    "col_avant": "Today",
+    "col_apres": "With this initiative",
+    "rows": [
+      { "label": "Direct federal tax", "avant": "Levied on every salary", "apres": "Abolished for individuals" },
+      { "label": "VAT", "avant": "8.1% on most purchases", "apres": "Reduced \u2014 purchasing power restored" },
+      { "label": "Stamp duty", "avant": "On stock market transactions", "apres": "Abolished" },
+      { "label": "Tax return", "avant": "Complex annual obligation", "apres": "No longer required at federal level" },
+      { "label": "Speculative flows", "avant": "No significant taxation", "apres": "Taxed like any other transaction" },
+      { "label": "AHV (old-age insurance)", "avant": "Under pressure, recurring increases", "apres": "Sustainably funded" },
+      { "label": "Purchasing power", "avant": "Eroding every year", "apres": "Restored for every household" }
+    ]
+  },
+  "objections": {
+    "label": "Frequently asked questions",
+    "titre": "What opponents say \u2014 and the truth",
+    "intro": "A humanist and non-partisan initiative has a duty to answer every objection honestly.",
+    "items": [
+      { "q": "\u00ab The financial centre will flee. \u00bb", "r": "Hong Kong, Taiwan and the United Kingdom have taxed transactions for decades. Their financial centres remain among the most dynamic in the world. The real economy is not going anywhere." },
+      { "q": "\u00ab The 100 trillion figure is unverifiable. \u00bb", "r": "The first year is an audit year at a near-zero rate. No tax is abolished before the figures are certified. The initiative is built on prudence." },
+      { "q": "\u00ab It's a disguised Tobin tax. \u00bb", "r": "No. The Tobin tax targeted currencies. This initiative covers all electronic payments at a rate one hundred times lower \u2014 making it unprecedented and far more equitable." },
+      { "q": "\u00ab The wealthy will benefit too. \u00bb", "r": "Not everyone suffers in the same way. But the relief benefits everyone \u2014 and first and foremost those whose purchasing power is most constrained." },
+      { "q": "\u00ab It's a left-wing initiative. \u00bb", "r": "It reduces taxes on labour (what the right demands) and taxes what merely grows wealth (what the left demands). It is humanist and non-partisan." },
+      { "q": "\u00ab The cantons will lose their autonomy. \u00bb", "r": "The initiative only affects federal taxes. Each canton remains entirely in control of its own taxation." }
+    ]
+  },
+  "signer_section": {
+    "label": "Take action",
+    "titre": "How to sign",
+    "sous": "A citizen-led, humanist, non-partisan act",
+    "intro": "By signing, you do not join any party. You simply affirm that a just society is one where the tax system serves people.",
+    "etapes": [
+      { "titre": "Download the signature sheet for your municipality", "desc": "Enter your municipality. You will receive a pre-filled signature sheet." },
+      { "titre": "Fill in by hand", "desc": "Last name, first name, date of birth and signature \u2014 all handwritten, in ink." },
+      { "titre": "Have your family and friends sign", "desc": "Up to 20 signatures per sheet, all from the same municipality." },
+      { "titre": "Send the sheet back to us", "desc": "By post using the prepaid return envelope, or at a collection stand near you." }
+    ]
+  },
+  "signer_page": {
+    "titre": "Sign",
+    "titre_accent": "now",
+    "intro": "One conviction, three ways to act \u2014 a citizen-led, humanist, non-partisan gesture \u2014 depending on your situation. Choose the one that suits you.",
+    "signatures_label": "Signatures collected",
+    "objectif_label": "Legal target",
+    "jours_label": "Days remaining",
+    "option1_titre": "I download and sign",
+    "option1_sous": "Ideal for you and your loved ones",
+    "option1_desc": "Receive the pre-filled signature sheet for your municipality. Sign with your neighbours and friends, then send the sheet back to us.",
+    "option2_titre": "I volunteer",
+    "option2_sous": "To go further",
+    "option2_desc": "Join the collector network. We will contact you to organise your involvement based on your availability and region.",
+    "option3_titre": "I share the QR code",
+    "option3_sous": "To spread the word",
+    "option3_desc": "Share this QR code with your friends and family, display it in your premises, print it on your campaign materials.",
+    "form_canton": "Your canton",
+    "form_commune": "Your municipality",
+    "form_npa": "Postal code",
+    "form_nom": "First name and last name",
+    "form_email": "Your email",
+    "form_choisir": "\u2014 Choose \u2014",
+    "form_placeholder_commune": "e.g. Zurich",
+    "form_placeholder_npa": "e.g. 8000",
+    "form_placeholder_nom": "First name Last name",
+    "form_placeholder_email": "you@example.ch",
+    "form_submit": "Receive my sheet (PDF)",
+    "form_success": "Your sheet has been generated successfully!",
+    "form_note": "By signing, you do not join any party. You exercise a fundamental civic right.",
+    "benevole_nom": "First name and last name",
+    "benevole_email": "Email",
+    "benevole_commune": "Municipality and canton",
+    "benevole_type": "Preferred type of involvement",
+    "benevole_types": [
+      "Collection stand (station, market)",
+      "Municipal contact person (local network)",
+      "Ambassador in my company / organisation",
+      "Digital support (social media)",
+      "Expert or professional witness",
+      "Logistics and coordination"
+    ],
+    "benevole_submit": "Sign me up",
+    "benevole_success": "Registration confirmed \u2014 we will contact you within 48 hours!",
+    "qr_instruction": "Scan with your phone's camera \u2014 no app needed.",
+    "qr_download": "Download the QR code"
+  },
+  "regles": {
+    "titre": "Rules to follow for your signature to be valid",
+    "sous": "An invalid signature is a lost signature. These rules are simple but absolute.",
+    "items": [
+      { "titre": "Same municipality on the entire sheet", "desc": "All signatories on the same sheet must be registered in the same municipality. Do not mix municipalities." },
+      { "titre": "Everything by hand", "desc": "Last name, first name, date of birth and signature must be written by hand, in ink. No printing, no stamps." },
+      { "titre": "Swiss citizens of voting age only", "desc": "Only Swiss nationals aged 18 or over who are registered on the electoral roll of their municipality may sign." },
+      { "titre": "Only once", "desc": "Signing twice \u2014 even on two different sheets \u2014 invalidates both signatures. One signature per person." },
+      { "titre": "After official publication", "desc": "No signature collected before publication in the Federal Gazette is valid. The date appears on each sheet." },
+      { "titre": "Return before the deadline", "desc": "Sheets must reach us early enough for us to send them to the municipalities for attestation. Plan ahead." }
+    ]
+  },
+  "contact": {
+    "titre": "Have a question? A problem with your sheet?",
+    "desc": "The initiative committee responds to all enquiries within 48 hours.",
+    "email": "contact@1parmille.ch"
+  },
+  "footer": {
+    "tagline": "A citizen-led, humanist and non-partisan initiative \u2014 in service of people",
+    "desc": "Swiss federal popular initiative for the introduction of a micro-tax on electronic transactions. Carried by Swiss citizens without partisan affiliation, united by a shared humanist conviction.",
+    "nav_titre": "Navigation",
+    "docs_titre": "Documents",
+    "doc_texte": "Initiative text (PDF)",
+    "doc_dossier": "Full dossier (PDF)",
+    "doc_note": "Economic brief (PDF)",
+    "doc_preambule": "Preamble (PDF)",
+    "doc_signer": "Sign the initiative",
+    "legal": "\u00a9 Initiative committee \u00ab One franc per thousand \u00bb \u2014 A citizen-led, humanist and non-partisan initiative",
+    "retour": "\u2190 Back to the site"
+  },
+  "common": {
+    "loading": "Loading\u2026",
+    "error": "An error has occurred.",
+    "required": "This field is required.",
+    "back": "Back"
+  }
+}
