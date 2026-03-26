@@ -1,25 +1,16 @@
-import { NextRequest, NextResponse } from "next/server";
-import {
-  authenticateAdmin,
-  setAdminSession,
-  clearAdminSession,
-} from "@/lib/auth";
+import { NextResponse } from "next/server";
+import { buildAuthorizeUrl, clearAdminSession } from "@/lib/auth";
 
-export async function POST(request: NextRequest) {
+export async function GET() {
   try {
-    const { username, password } = await request.json();
-
-    if (!authenticateAdmin(username, password)) {
-      return NextResponse.json(
-        { error: "Invalid credentials" },
-        { status: 401 }
-      );
-    }
-
-    await setAdminSession();
-    return NextResponse.json({ success: true });
-  } catch {
-    return NextResponse.json({ error: "Auth failed" }, { status: 500 });
+    const url = buildAuthorizeUrl();
+    return NextResponse.redirect(url);
+  } catch (err) {
+    console.error("OAuth init error:", err);
+    return NextResponse.json(
+      { error: "OAuth configuration error" },
+      { status: 500 }
+    );
   }
 }
 

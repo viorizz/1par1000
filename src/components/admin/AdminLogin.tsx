@@ -1,40 +1,15 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+const ERROR_MESSAGES: Record<string, string> = {
+  access_denied: "Accès refusé par Infomaniak.",
+  not_authorized:
+    "Votre compte Infomaniak n'est pas autorisé à accéder à l'administration.",
+  auth_failed: "Erreur lors de l'authentification. Réessayez.",
+  invalid_state: "Session expirée. Réessayez.",
+  missing_params: "Paramètres manquants dans la réponse d'authentification.",
+};
 
-export function AdminLogin() {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
-  const [loading, setLoading] = useState(false);
-  const router = useRouter();
-
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    setLoading(true);
-    setError("");
-
-    try {
-      const res = await fetch("/api/admin/auth", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ username, password }),
-      });
-
-      if (res.ok) {
-        router.push("/admin/dashboard");
-        router.refresh();
-      } else {
-        setError("Identifiants invalides");
-      }
-    } catch {
-      setError("Erreur de connexion");
-    } finally {
-      setLoading(false);
-    }
-  }
-
+export function AdminLogin({ error }: { error?: string }) {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
       <div className="w-full max-w-sm">
@@ -45,47 +20,30 @@ export function AdminLogin() {
           </p>
         </div>
 
-        <form
-          onSubmit={handleSubmit}
-          className="bg-white rounded-lg shadow-sm border p-6 space-y-4"
-        >
-          <div>
-            <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1">
-              Identifiant
-            </label>
-            <input
-              type="text"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              className="w-full border rounded px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-              autoFocus
-            />
-          </div>
-
-          <div>
-            <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1">
-              Mot de passe
-            </label>
-            <input
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className="w-full border rounded px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-            />
-          </div>
+        <div className="bg-white rounded-lg shadow-sm border p-6 space-y-4">
+          <p className="text-sm text-gray-600 text-center leading-relaxed">
+            Connectez-vous avec votre compte Infomaniak pour accéder au panneau
+            d&apos;administration.
+          </p>
 
           {error && (
-            <div className="text-red-600 text-sm text-center">{error}</div>
+            <div className="bg-red-50 border border-red-200 text-red-700 text-sm p-3 rounded text-center">
+              {ERROR_MESSAGES[error] || "Une erreur est survenue."}
+            </div>
           )}
 
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full bg-[#1A3A5C] text-white font-semibold py-2.5 rounded hover:bg-[#2A5280] transition-colors disabled:opacity-50"
+          <a
+            href="/api/admin/auth"
+            className="block w-full bg-bleu text-white font-semibold py-2.5 rounded hover:bg-bleu-clair transition-colors text-center no-underline"
           >
-            {loading ? "Connexion..." : "Se connecter"}
-          </button>
-        </form>
+            Se connecter avec Infomaniak
+          </a>
+
+          <p className="text-xs text-gray-400 text-center">
+            Seuls les comptes autorisés par le comité peuvent accéder à cet
+            espace.
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -25,19 +25,29 @@ Site vitrine multilingue (FR/DE/IT/EN) pour l'initiative populaire fédérale su
 ```bash
 npm install
 cp .env.example .env
-# Modifier ADMIN_PASSWORD dans .env
+# Configurer les variables dans .env (voir ci-dessous)
 npm run dev
 ```
 
 Le site est accessible sur `http://localhost:3000`.
-L'admin est accessible sur `http://localhost:3000/admin` (identifiant: `admin`, mot de passe: celui défini dans `.env`).
+L'admin est accessible sur `http://localhost:3000/admin` — l'authentification se fait via Infomaniak OAuth (OpenID Connect).
+
+### Variables d'environnement
+
+| Variable | Description |
+|---|---|
+| `INFOMANIAK_CLIENT_ID` | Client ID de l'application OAuth Infomaniak |
+| `INFOMANIAK_CLIENT_SECRET` | Client Secret de l'application OAuth Infomaniak |
+| `ADMIN_EMAILS` | Emails Infomaniak autorisés (séparés par des virgules) |
+| `NEXT_PUBLIC_BASE_URL` | URL publique du site (ex: `https://1par1000.ch`) |
 
 ## Déploiement sur Infomaniak
 
 1. Créer un site Node.js sur l'hébergement Infomaniak
 2. Configurer le projet via Git ou upload
-3. Définir les variables d'environnement (ADMIN_PASSWORD, NODE_ENV=production)
-4. Lancer `npm install && npm run build && npm start`
+3. Créer une application OAuth dans le manager Infomaniak et ajouter `https://1par1000.ch/api/admin/callback` comme redirect URI
+4. Définir les variables d'environnement (INFOMANIAK_CLIENT_ID, INFOMANIAK_CLIENT_SECRET, ADMIN_EMAILS, NEXT_PUBLIC_BASE_URL, NODE_ENV=production)
+5. Lancer `npm install && npm run build && npm start`
 
 ## Structure du projet
 

@@ -47,15 +47,15 @@ function migrate(db: Database.Database) {
       updated_at TEXT NOT NULL DEFAULT (datetime('now'))
     );
 
-    CREATE TABLE IF NOT EXISTS admin_users (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
-      username TEXT NOT NULL UNIQUE,
-      password_hash TEXT NOT NULL,
+    CREATE TABLE IF NOT EXISTS admin_sessions (
+      token TEXT PRIMARY KEY,
+      email TEXT NOT NULL,
+      expires_at TEXT NOT NULL,
       created_at TEXT NOT NULL DEFAULT (datetime('now'))
     );
 
-    CREATE TABLE IF NOT EXISTS admin_sessions (
-      token TEXT PRIMARY KEY,
+    CREATE TABLE IF NOT EXISTS oauth_states (
+      state TEXT PRIMARY KEY,
       expires_at TEXT NOT NULL,
       created_at TEXT NOT NULL DEFAULT (datetime('now'))
     );
