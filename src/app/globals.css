@@ -1,49 +1,54 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bleu: #1A3A5C;
-  --color-bleu-clair: #2A5280;
-  --color-or: #C8A951;
-  --color-or-clair: #E8C96A;
-  --color-blanc: #F8F6F0;
-  --color-gris: #EEE9E0;
-  --color-vert: #27ae60;
-  --color-texte: #1A1A1A;
-  --color-texte-leger: #555555;
-  --color-rouge: #c0392b;
+    --color-bleu: #1a3a5c;
+    --color-bleu-clair: #2a5280;
+    --color-or: #c8a951;
+    --color-or-clair: #e8c96a;
+    --color-blanc: #f8f6f0;
+    --color-gris: #eee9e0;
+    --color-vert: #27ae60;
+    --color-vert-foret: #1b3a2a;
+    --color-vert-feuille: #2e6b45;
+    --color-vert-clair: #4a9b63;
+    --color-texte: #1a1a1a;
+    --color-texte-leger: #555555;
+    --color-rouge: #c0392b;
 
-  --font-serif: "Playfair Display", Georgia, serif;
-  --font-sans: "Source Sans 3", system-ui, sans-serif;
+    --font-serif: "Playfair Display", Georgia, serif;
+    --font-sans: "Source Sans 3", system-ui, sans-serif;
 }
 
 body {
-  font-family: var(--font-sans);
-  background: var(--color-blanc);
-  color: var(--color-texte);
+    font-family: var(--font-sans);
+    background: var(--color-blanc);
+    color: var(--color-texte);
 }
 
 @keyframes fade-up {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    from {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .animate-fade-up {
-  animation: fade-up 0.8s ease forwards;
+    animation: fade-up 0.8s ease forwards;
 }
 
 .reveal {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    transition:
+        opacity 0.6s ease,
+        transform 0.6s ease;
 }
 
 .reveal.visible {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
 }

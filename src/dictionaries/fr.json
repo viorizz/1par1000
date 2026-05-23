@@ -63,7 +63,8 @@
         "titre": "Le village",
         "desc": "Vous. Votre famille. Votre voisin. Votre impôt fédéral supprimé. Votre TVA réduite. Votre pouvoir d'achat retrouvé."
       }
-    ]
+    ],
+    "co2": "Ce site est hébergé sur des serveurs 100% énergies renouvelables. Son empreinte carbone annuelle est de 0,052 kg de CO₂ — certifiée par Infomaniak."
   },
   "chiffres": {
     "label": "Les faits",

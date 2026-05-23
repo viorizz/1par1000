@@ -63,7 +63,8 @@
         "titre": "Il villaggio",
         "desc": "Voi. La vostra famiglia. Il vostro vicino. La vostra imposta federale soppressa. La vostra IVA ridotta. Il vostro potere d'acquisto ritrovato."
       }
-    ]
+    ],
+    "co2": "Questo sito è ospitato su server alimentati al 100% da energie rinnovabili. La sua impronta carbonica annuale è di 0,052 kg di CO₂ — certificata da Infomaniak."
   },
   "chiffres": {
     "label": "I fatti",

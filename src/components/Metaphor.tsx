@@ -7,13 +7,17 @@ export function Metaphor({ dict }: { dict: Dictionary }) {
   return (
     <section
       id="metaphore"
-      className="py-24 px-[5vw] bg-bleu relative overflow-hidden"
+      className="py-24 px-[5vw] bg-vert-foret relative overflow-hidden"
     >
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_70%_at_0%_50%,rgba(200,169,81,0.05),transparent)]" />
+      {/* Subtle radial glow from the right */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_55%_65%_at_100%_40%,rgba(74,155,99,0.12),transparent)]" />
+      {/* Very faint leaf-texture overlay using a second gradient */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_40%_50%_at_10%_80%,rgba(46,107,69,0.2),transparent)]" />
+
       <div className="relative z-10 max-w-4xl mx-auto">
         {/* Header */}
         <RevealOnScroll>
-          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-or mb-3">
+          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-vert-clair mb-3">
             {m.label}
           </p>
         </RevealOnScroll>
@@ -23,14 +27,14 @@ export function Metaphor({ dict }: { dict: Dictionary }) {
           </h2>
         </RevealOnScroll>
         <RevealOnScroll delay={140}>
-          <h3 className="font-serif text-[clamp(1.5rem,3vw,2.25rem)] font-bold text-or leading-tight mb-8">
+          <h3 className="font-serif text-[clamp(1.5rem,3vw,2.25rem)] font-bold text-vert-clair leading-tight mb-8">
             {m.sous}
           </h3>
         </RevealOnScroll>
 
-        {/* Gold divider */}
+        {/* Green divider */}
         <RevealOnScroll delay={180}>
-          <div className="w-10 h-[3px] bg-or mb-10" />
+          <div className="w-10 h-[3px] bg-vert-clair mb-10" />
         </RevealOnScroll>
 
         {/* Body paragraphs */}
@@ -47,11 +51,11 @@ export function Metaphor({ dict }: { dict: Dictionary }) {
         </RevealOnScroll>
 
         {/* Three cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
           {m.cards.map((card, i) => (
             <RevealOnScroll key={i} delay={360 + i * 70}>
-              <div className="border border-or/30 rounded-lg p-6 bg-blanc/3 hover:bg-blanc/6 transition-colors group">
-                <div className="text-or font-serif font-bold text-xl mb-3 group-hover:text-or-clair transition-colors">
+              <div className="border border-vert-clair/30 rounded-lg p-6 bg-vert-feuille/20 hover:bg-vert-feuille/35 transition-colors group">
+                <div className="text-vert-clair font-serif font-bold text-xl mb-3 group-hover:text-blanc transition-colors">
                   {card.titre}
                 </div>
                 <p className="text-sm text-blanc/70 leading-relaxed">
@@ -61,6 +65,16 @@ export function Metaphor({ dict }: { dict: Dictionary }) {
             </RevealOnScroll>
           ))}
         </div>
+
+        {/* CO₂ badge */}
+        <RevealOnScroll delay={570}>
+          <div className="inline-flex items-center gap-3 border border-vert-clair/25 rounded-full px-5 py-2.5 bg-vert-feuille/15">
+            <span className="text-vert-clair text-lg" aria-hidden="true">
+              🌿
+            </span>
+            <p className="text-sm text-blanc/70 leading-snug">{m.co2}</p>
+          </div>
+        </RevealOnScroll>
       </div>
     </section>
   );

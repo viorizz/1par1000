@@ -63,7 +63,8 @@
         "titre": "The village",
         "desc": "You. Your family. Your neighbour. Your federal tax abolished. Your VAT reduced. Your purchasing power restored."
       }
-    ]
+    ],
+    "co2": "This site is hosted on 100% renewable energy servers. Its annual carbon footprint is 0.052 kg of CO₂ — certified by Infomaniak."
   },
   "chiffres": {
     "label": "The facts",
