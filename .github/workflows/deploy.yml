@@ -1,5 +1,4 @@
 # .github/workflows/deploy.yml
-
 name: Build and Deploy to Infomaniak
 
 on:
@@ -26,21 +25,18 @@ jobs:
           npm install
           npm run build
 
-      - name: Sync to Infomaniak via SFTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Deploy via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: sftp
+          username: ${{ secrets.SSH_USERNAME }}
+          server: ${{ secrets.SSH_HOST }}
+          password: ${{ secrets.FTP_PASSWORD }} # You can keep using your password secret
           port: 22
-          # Ensure this path exists. Based on your previous log,
-          # make sure /sites/ is the correct absolute path on the server.
-          server-dir: /sites/
-          exclude: |
-            **/.git*
-            **/.github*
-            **/node_modules/**
-            src/
-            README.md
-            .gitignore
+          # Use the path to your web root on Infomaniak
+          remote_path: /sites/
+          # Sync everything from the root
+          local_path: .
+          # Files to exclude from transfer
+          # IMPORTANT: For Next.js/Node, we don't want to send src or node_modules
+          # because the build is finished.
+          args: '-avz --exclude="node_modules" --exclude=".git*" --exclude=".github" --exclude="src"'
