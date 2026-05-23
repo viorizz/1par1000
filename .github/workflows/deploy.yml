@@ -38,7 +38,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           # Path on Infomaniak server. Use the "Web" folder usually.
-          server-dir: /sites/1par1000.ch
+          server-dir: /sites/
           # We exclude source files because the site is already built
           exclude: |
             **/.git*
