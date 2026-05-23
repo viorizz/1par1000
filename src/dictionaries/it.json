@@ -43,18 +43,64 @@
     "p6": "Questa iniziativa non appartiene a nessun partito. Appartiene a ogni persona che crede che una società giusta sia una società in cui il sistema fiscale serve l'essere umano — e non l'essere umano che serve il sistema.",
     "signature": "Il comitato d'iniziativa — cittadine e cittadini svizzeri di sensibilità diverse, uniti da una convinzione umanista comune."
   },
+  "metaphore": {
+    "label": "Per capire semplicemente",
+    "titre": "Una foglia colta su mille.",
+    "sous": "L'albero non sente nulla. La foresta cambia tutto.",
+    "p1": "Immaginate una foresta immensa. Da ogni albero si coglie una foglia su mille. L'albero non se ne accorge — la stagione seguente, essa è ricresciuta. Ma con le foglie di tutti gli alberi della foresta, si può riparare, riscaldare e nutrire un intero villaggio.",
+    "p2_before": "È esattamente ciò che propone questa iniziativa: un franco per mille sulle transazioni elettroniche.",
+    "p2_strong": "Impercettibile per ciascuno. Decisivo per tutti.",
+    "cards": [
+      {
+        "titre": "1 foglia",
+        "desc": "colta su mille per transazione. L'albero — colui che paga — non sente nulla. La sua vitalità è intatta."
+      },
+      {
+        "titre": "La foresta",
+        "desc": "100'000 miliardi di transazioni annuali. Milioni di alberi. Milioni di foglie disponibili per la vita comune."
+      },
+      {
+        "titre": "Il villaggio",
+        "desc": "Voi. La vostra famiglia. Il vostro vicino. La vostra imposta federale soppressa. La vostra IVA ridotta. Il vostro potere d'acquisto ritrovato."
+      }
+    ]
+  },
   "chiffres": {
     "label": "I fatti",
     "titre": "Cifre che cambiano tutto",
     "sous": "Iniziativa cittadina, umanista e apartitica — al servizio dell'essere umano",
     "intro": "In Svizzera, 100'000 miliardi di franchi transitano ogni anno attraverso canali elettronici — 125 volte il PIL del Paese — senza alcun contributo fiscale significativo. Un solo franco per mille basta a invertire la logica e a ripristinare il potere d'acquisto di ogni nucleo familiare.",
     "items": [
-      { "nb": "100'000", "titre": "Miliardi CHF/anno", "desc": "di transazioni elettroniche. 125 volte il PIL. Oggi senza alcun contributo fiscale reale." },
-      { "nb": "1‰", "titre": "Aliquota proposta", "desc": "Un franco per mille franchi. Impercettibile su ogni transazione. Decisivo per la vita comune." },
-      { "nb": "~100", "titre": "Miliardi di entrate/anno", "desc": "Per sopprimere l'imposta federale diretta, ridurre l'IVA, finanziare l'AVS in modo duraturo." },
-      { "nb": "4'500+", "titre": "CHF per nucleo familiare/anno", "desc": "Potere d'acquisto reale ripristinato. Concreto, immediato, per ogni famiglia svizzera." },
-      { "nb": "0", "titre": "Imposta federale diretta", "desc": "Soppressa per le persone fisiche. Niente più dichiarazione d'imposta federale." },
-      { "nb": "3", "titre": "Imposte soppresse", "desc": "IVA ridotta, imposta federale diretta soppressa, tassa di bollo soppressa." }
+      {
+        "nb": "100'000",
+        "titre": "Miliardi CHF/anno",
+        "desc": "di transazioni elettroniche. 125 volte il PIL. Oggi senza alcun contributo fiscale reale."
+      },
+      {
+        "nb": "1‰",
+        "titre": "Aliquota proposta",
+        "desc": "Un franco per mille franchi. Impercettibile su ogni transazione. Decisivo per la vita comune."
+      },
+      {
+        "nb": "~100",
+        "titre": "Miliardi di entrate/anno",
+        "desc": "Per sopprimere l'imposta federale diretta, ridurre l'IVA, finanziare l'AVS in modo duraturo."
+      },
+      {
+        "nb": "4'500+",
+        "titre": "CHF per nucleo familiare/anno",
+        "desc": "Potere d'acquisto reale ripristinato. Concreto, immediato, per ogni famiglia svizzera."
+      },
+      {
+        "nb": "0",
+        "titre": "Imposta federale diretta",
+        "desc": "Soppressa per le persone fisiche. Niente più dichiarazione d'imposta federale."
+      },
+      {
+        "nb": "3",
+        "titre": "Imposte soppresse",
+        "desc": "IVA ridotta, imposta federale diretta soppressa, tassa di bollo soppressa."
+      }
     ]
   },
   "pouvoir": {
@@ -63,10 +109,22 @@
     "sous": "Cosa cambia questa iniziativa nella vostra vita quotidiana",
     "intro": "Non sono astrazioni contabili. Sono franchi che restano nella vostra tasca — ogni mese, ogni anno.",
     "items": [
-      { "montant": "–CHF 1'800", "desc": "Imposta federale diretta soppressa per un nucleo familiare con reddito mediano — risparmio annuale diretto." },
-      { "montant": "–8,1%", "desc": "IVA ridotta su ogni acquisto quotidiano — alimentari, vestiti, trasporti, medicinali." },
-      { "montant": "+Stabilità", "desc": "AVS finanziata in modo duraturo senza aumento dei contributi — sicurezza per i lavoratori attivi e i pensionati." },
-      { "montant": "+Tempo", "desc": "Dichiarazione d'imposta federale soppressa — ore ritrovate ogni anno." }
+      {
+        "montant": "–CHF 1'800",
+        "desc": "Imposta federale diretta soppressa per un nucleo familiare con reddito mediano — risparmio annuale diretto."
+      },
+      {
+        "montant": "–8,1%",
+        "desc": "IVA ridotta su ogni acquisto quotidiano — alimentari, vestiti, trasporti, medicinali."
+      },
+      {
+        "montant": "+Stabilità",
+        "desc": "AVS finanziata in modo duraturo senza aumento dei contributi — sicurezza per i lavoratori attivi e i pensionati."
+      },
+      {
+        "montant": "+Tempo",
+        "desc": "Dichiarazione d'imposta federale soppressa — ore ritrovate ogni anno."
+      }
     ],
     "box_montant": "~CHF 6",
     "box_label": "Micro-imposta mensile su uno stipendio di CHF 6'000",
@@ -79,10 +137,22 @@
     "titre": "Perché questa iniziativa è diversa",
     "sous": "Cittadina, umanista, apartitica — tre parole che non sono slogan",
     "items": [
-      { "titre": "Cittadina", "desc": "Non viene da un partito, da una lobby né da un gruppo di pressione. Viene da cittadini che esercitano un diritto costituzionale fondamentale — proporre direttamente una modifica della legge fondamentale del loro Paese." },
-      { "titre": "Umanista", "desc": "Parte da una convinzione antica e semplice: le istituzioni e i sistemi fiscali sono strumenti creati dagli esseri umani per servire gli esseri umani. Quando non adempiono più questo ruolo, bisogna correggerli." },
-      { "titre": "Apartitica", "desc": "Non è moralmente neutra — ha valori chiari. Ma non deve nulla a nessuno schieramento. Riduce le imposte sul lavoro (ciò che la destra chiede) e tassa ciò che si limita a fruttare (ciò che la sinistra chiede). Appartiene a tutti." },
-      { "titre": "Al servizio dell'essere umano", "desc": "Dietro ogni cifra, c'è una realtà concreta: un affitto pagato, un premio di cassa malati assorbito, una fine mese più serena. Un potere d'acquisto ripristinato. È per questo che questa iniziativa esiste." }
+      {
+        "titre": "Cittadina",
+        "desc": "Non viene da un partito, da una lobby né da un gruppo di pressione. Viene da cittadini che esercitano un diritto costituzionale fondamentale — proporre direttamente una modifica della legge fondamentale del loro Paese."
+      },
+      {
+        "titre": "Umanista",
+        "desc": "Parte da una convinzione antica e semplice: le istituzioni e i sistemi fiscali sono strumenti creati dagli esseri umani per servire gli esseri umani. Quando non adempiono più questo ruolo, bisogna correggerli."
+      },
+      {
+        "titre": "Apartitica",
+        "desc": "Non è moralmente neutra — ha valori chiari. Ma non deve nulla a nessuno schieramento. Riduce le imposte sul lavoro (ciò che la destra chiede) e tassa ciò che si limita a fruttare (ciò che la sinistra chiede). Appartiene a tutti."
+      },
+      {
+        "titre": "Al servizio dell'essere umano",
+        "desc": "Dietro ogni cifra, c'è una realtà concreta: un affitto pagato, un premio di cassa malati assorbito, una fine mese più serena. Un potere d'acquisto ripristinato. È per questo che questa iniziativa esiste."
+      }
     ]
   },
   "comparaison": {
@@ -92,13 +162,41 @@
     "col_avant": "Oggi",
     "col_apres": "Con questa iniziativa",
     "rows": [
-      { "label": "Imposta federale diretta", "avant": "Prelevata su ogni stipendio", "apres": "Soppressa per le persone fisiche" },
-      { "label": "IVA", "avant": "8,1% sulla maggior parte degli acquisti", "apres": "Ridotta — potere d'acquisto ripristinato" },
-      { "label": "Tassa di bollo", "avant": "Sulle transazioni borsistiche", "apres": "Soppressa" },
-      { "label": "Dichiarazione d'imposta", "avant": "Obbligo annuale complesso", "apres": "Non più necessaria a livello federale" },
-      { "label": "Flussi speculativi", "avant": "Nessuna tassazione significativa", "apres": "Tassati come qualsiasi transazione" },
-      { "label": "AVS", "avant": "Sotto pressione, aumenti ricorrenti", "apres": "Finanziata in modo duraturo" },
-      { "label": "Potere d'acquisto", "avant": "Si erode ogni anno", "apres": "Ripristinato per ogni nucleo familiare" }
+      {
+        "label": "Imposta federale diretta",
+        "avant": "Prelevata su ogni stipendio",
+        "apres": "Soppressa per le persone fisiche"
+      },
+      {
+        "label": "IVA",
+        "avant": "8,1% sulla maggior parte degli acquisti",
+        "apres": "Ridotta — potere d'acquisto ripristinato"
+      },
+      {
+        "label": "Tassa di bollo",
+        "avant": "Sulle transazioni borsistiche",
+        "apres": "Soppressa"
+      },
+      {
+        "label": "Dichiarazione d'imposta",
+        "avant": "Obbligo annuale complesso",
+        "apres": "Non più necessaria a livello federale"
+      },
+      {
+        "label": "Flussi speculativi",
+        "avant": "Nessuna tassazione significativa",
+        "apres": "Tassati come qualsiasi transazione"
+      },
+      {
+        "label": "AVS",
+        "avant": "Sotto pressione, aumenti ricorrenti",
+        "apres": "Finanziata in modo duraturo"
+      },
+      {
+        "label": "Potere d'acquisto",
+        "avant": "Si erode ogni anno",
+        "apres": "Ripristinato per ogni nucleo familiare"
+      }
     ]
   },
   "objections": {
@@ -106,12 +204,30 @@
     "titre": "Cosa dicono gli oppositori — e la verità",
     "intro": "Un'iniziativa umanista e apartitica ha il dovere di rispondere onestamente a ogni obiezione.",
     "items": [
-      { "q": "«La piazza finanziaria fuggirà.»", "r": "Hong Kong, Taiwan e il Regno Unito tassano le transazioni da decenni. Le loro piazze finanziarie restano tra le più dinamiche al mondo. L'economia reale non andrà da nessuna parte." },
-      { "q": "«I 100'000 miliardi sono inverificabili.»", "r": "Il primo anno è un anno di audit con aliquota quasi nulla. Nessuna imposta viene soppressa prima della certificazione delle cifre. L'iniziativa è costruita sulla prudenza." },
-      { "q": "«È una Tobin tax mascherata.»", "r": "No. La Tobin tax mirava alle valute. Questa iniziativa copre tutti i pagamenti elettronici con un'aliquota cento volte più bassa — il che la rende inedita e molto più equa." },
-      { "q": "«Anche i ricchi ne approfitteranno.»", "r": "Non tutti soffrono allo stesso modo. Ma lo sgravio avvantaggia tutti — e in primo luogo coloro il cui potere d'acquisto è più limitato." },
-      { "q": "«È un'iniziativa di sinistra.»", "r": "Riduce le imposte sul lavoro (ciò che la destra chiede) e tassa ciò che si limita a fruttare (ciò che la sinistra chiede). È umanista e apartitica." },
-      { "q": "«I Cantoni perderanno la loro autonomia.»", "r": "L'iniziativa riguarda unicamente le imposte federali. Ogni Cantone resta interamente padrone della propria fiscalità." }
+      {
+        "q": "«La piazza finanziaria fuggirà.»",
+        "r": "Hong Kong, Taiwan e il Regno Unito tassano le transazioni da decenni. Le loro piazze finanziarie restano tra le più dinamiche al mondo. L'economia reale non andrà da nessuna parte."
+      },
+      {
+        "q": "«I 100'000 miliardi sono inverificabili.»",
+        "r": "Il primo anno è un anno di audit con aliquota quasi nulla. Nessuna imposta viene soppressa prima della certificazione delle cifre. L'iniziativa è costruita sulla prudenza."
+      },
+      {
+        "q": "«È una Tobin tax mascherata.»",
+        "r": "No. La Tobin tax mirava alle valute. Questa iniziativa copre tutti i pagamenti elettronici con un'aliquota cento volte più bassa — il che la rende inedita e molto più equa."
+      },
+      {
+        "q": "«Anche i ricchi ne approfitteranno.»",
+        "r": "Non tutti soffrono allo stesso modo. Ma lo sgravio avvantaggia tutti — e in primo luogo coloro il cui potere d'acquisto è più limitato."
+      },
+      {
+        "q": "«È un'iniziativa di sinistra.»",
+        "r": "Riduce le imposte sul lavoro (ciò che la destra chiede) e tassa ciò che si limita a fruttare (ciò che la sinistra chiede). È umanista e apartitica."
+      },
+      {
+        "q": "«I Cantoni perderanno la loro autonomia.»",
+        "r": "L'iniziativa riguarda unicamente le imposte federali. Ogni Cantone resta interamente padrone della propria fiscalità."
+      }
     ]
   },
   "signer_section": {
@@ -120,10 +236,22 @@
     "sous": "Un gesto cittadino, umanista, apartitico",
     "intro": "Firmando, non aderite a nessun partito. Affermate semplicemente che una società giusta è una società in cui il sistema fiscale serve l'essere umano.",
     "etapes": [
-      { "titre": "Scaricate la lista per il vostro Comune", "desc": "Indicate il vostro Comune. Riceverete una lista precompilata corrispondente." },
-      { "titre": "Compilate a mano", "desc": "Cognome, nome, data di nascita e firma — tutto manoscritto, a inchiostro." },
-      { "titre": "Fate firmare i vostri cari", "desc": "Fino a 20 firme per foglio, tutte dello stesso Comune." },
-      { "titre": "Rispediteci la lista", "desc": "Per posta con la busta di ritorno allegata, o presso uno stand di raccolta vicino a voi." }
+      {
+        "titre": "Scaricate la lista per il vostro Comune",
+        "desc": "Indicate il vostro Comune. Riceverete una lista precompilata corrispondente."
+      },
+      {
+        "titre": "Compilate a mano",
+        "desc": "Cognome, nome, data di nascita e firma — tutto manoscritto, a inchiostro."
+      },
+      {
+        "titre": "Fate firmare i vostri cari",
+        "desc": "Fino a 20 firme per foglio, tutte dello stesso Comune."
+      },
+      {
+        "titre": "Rispediteci la lista",
+        "desc": "Per posta con la busta di ritorno allegata, o presso uno stand di raccolta vicino a voi."
+      }
     ]
   },
   "signer_page": {
@@ -176,12 +304,30 @@
     "titre": "Regole da rispettare affinché la vostra firma sia valida",
     "sous": "Una firma non valida è una firma persa. Queste regole sono semplici ma inderogabili.",
     "items": [
-      { "titre": "Stesso Comune su tutto il foglio", "desc": "Tutti i firmatari di uno stesso foglio devono essere domiciliati nello stesso Comune. Non mescolate i Comuni." },
-      { "titre": "Tutto a mano", "desc": "Cognome, nome, data di nascita e firma devono essere scritti a mano, a inchiostro. Nessuna stampa, nessun timbro." },
-      { "titre": "Solo cittadini svizzeri maggiorenni", "desc": "Solo i cittadini svizzeri che hanno compiuto 18 anni e sono iscritti nel registro elettorale del loro Comune possono firmare." },
-      { "titre": "Una sola volta", "desc": "Firmare due volte — anche su due fogli diversi — annulla entrambe le firme. Una sola firma per persona." },
-      { "titre": "Dopo la pubblicazione ufficiale", "desc": "Nessuna firma raccolta prima della pubblicazione nel Foglio federale è valida. La data figura su ogni lista." },
-      { "titre": "Invio prima della scadenza", "desc": "Le liste devono pervenirci con sufficiente anticipo affinché possiamo inviarle ai Comuni per l'attestazione. Pianificate in anticipo." }
+      {
+        "titre": "Stesso Comune su tutto il foglio",
+        "desc": "Tutti i firmatari di uno stesso foglio devono essere domiciliati nello stesso Comune. Non mescolate i Comuni."
+      },
+      {
+        "titre": "Tutto a mano",
+        "desc": "Cognome, nome, data di nascita e firma devono essere scritti a mano, a inchiostro. Nessuna stampa, nessun timbro."
+      },
+      {
+        "titre": "Solo cittadini svizzeri maggiorenni",
+        "desc": "Solo i cittadini svizzeri che hanno compiuto 18 anni e sono iscritti nel registro elettorale del loro Comune possono firmare."
+      },
+      {
+        "titre": "Una sola volta",
+        "desc": "Firmare due volte — anche su due fogli diversi — annulla entrambe le firme. Una sola firma per persona."
+      },
+      {
+        "titre": "Dopo la pubblicazione ufficiale",
+        "desc": "Nessuna firma raccolta prima della pubblicazione nel Foglio federale è valida. La data figura su ogni lista."
+      },
+      {
+        "titre": "Invio prima della scadenza",
+        "desc": "Le liste devono pervenirci con sufficiente anticipo affinché possiamo inviarle ai Comuni per l'attestazione. Pianificate in anticipo."
+      }
     ]
   },
   "contact": {

@@ -41,7 +41,29 @@
     "p4": "This is not a question of right or left. It is a question of basic justice. This is not a technical question. It is a human question.",
     "p5": "A levy of one franc per thousand on these transactions is enough to rebalance this disparity. To abolish the direct federal tax that weighs on every salary. To reduce the VAT that hits every daily purchase. To give every household real purchasing power back \u2014 without miracles, without debt, without raising social contributions.",
     "p6": "This initiative does not belong to any party. It belongs to every person who believes that a just society is one where the tax system serves people \u2014 and not people who serve the system.",
-    "signature": "The initiative committee \u2014 Swiss citizens of diverse perspectives, united by a shared humanist conviction."
+    "signature": "The initiative committee — Swiss citizens of diverse perspectives, united by a shared humanist conviction."
+  },
+  "metaphore": {
+    "label": "To understand simply",
+    "titre": "One leaf picked from a thousand.",
+    "sous": "The tree feels nothing. The forest changes everything.",
+    "p1": "Imagine a vast forest. From every tree, one leaf in a thousand is picked. The tree does not notice — by the following season, it has grown back. But with the leaves of every tree in the forest, you can shelter, heat and feed an entire village.",
+    "p2_before": "That is exactly what this initiative proposes: one franc per thousand on electronic transactions.",
+    "p2_strong": "Imperceptible for each person. Decisive for everyone.",
+    "cards": [
+      {
+        "titre": "1 leaf",
+        "desc": "picked from a thousand per transaction. The tree — the one who pays — feels nothing. Its vitality is intact."
+      },
+      {
+        "titre": "The forest",
+        "desc": "100 trillion in annual transactions. Millions of trees. Millions of leaves available for the common good."
+      },
+      {
+        "titre": "The village",
+        "desc": "You. Your family. Your neighbour. Your federal tax abolished. Your VAT reduced. Your purchasing power restored."
+      }
+    ]
   },
   "chiffres": {
     "label": "The facts",
@@ -49,12 +71,36 @@
     "sous": "A citizen-led, humanist and non-partisan initiative \u2014 in service of people",
     "intro": "In Switzerland, CHF 100 trillion flow through electronic channels every year \u2014 125 times the country's GDP \u2014 with no significant tax contribution. Just one franc per thousand is enough to reverse the logic and restore every household's purchasing power.",
     "items": [
-      { "nb": "100,000", "titre": "Billion CHF/year", "desc": "in electronic transactions. 125 times the GDP. Currently with no real tax contribution." },
-      { "nb": "1\u2030", "titre": "Proposed rate", "desc": "One franc per thousand francs. Imperceptible on each transaction. Decisive for the common good." },
-      { "nb": "~100", "titre": "Billion in revenue/year", "desc": "To abolish direct federal tax, reduce VAT, and sustainably fund the AHV (old-age insurance)." },
-      { "nb": "4,500+", "titre": "CHF per household/year", "desc": "Real purchasing power restored. Concrete, immediate, for every Swiss family." },
-      { "nb": "0", "titre": "Direct federal tax", "desc": "Abolished for individuals. No more federal tax return." },
-      { "nb": "3", "titre": "Taxes eliminated", "desc": "VAT reduced, direct federal tax abolished, stamp duty abolished." }
+      {
+        "nb": "100,000",
+        "titre": "Billion CHF/year",
+        "desc": "in electronic transactions. 125 times the GDP. Currently with no real tax contribution."
+      },
+      {
+        "nb": "1\u2030",
+        "titre": "Proposed rate",
+        "desc": "One franc per thousand francs. Imperceptible on each transaction. Decisive for the common good."
+      },
+      {
+        "nb": "~100",
+        "titre": "Billion in revenue/year",
+        "desc": "To abolish direct federal tax, reduce VAT, and sustainably fund the AHV (old-age insurance)."
+      },
+      {
+        "nb": "4,500+",
+        "titre": "CHF per household/year",
+        "desc": "Real purchasing power restored. Concrete, immediate, for every Swiss family."
+      },
+      {
+        "nb": "0",
+        "titre": "Direct federal tax",
+        "desc": "Abolished for individuals. No more federal tax return."
+      },
+      {
+        "nb": "3",
+        "titre": "Taxes eliminated",
+        "desc": "VAT reduced, direct federal tax abolished, stamp duty abolished."
+      }
     ]
   },
   "pouvoir": {
@@ -63,10 +109,22 @@
     "sous": "What this initiative changes in your daily life",
     "intro": "These are not accounting abstractions. These are francs that stay in your pocket \u2014 every month, every year.",
     "items": [
-      { "montant": "\u2013CHF 1,800", "desc": "Direct federal tax abolished for a median-income household \u2014 direct annual savings." },
-      { "montant": "\u20138.1%", "desc": "VAT reduced on every daily purchase \u2014 food, clothing, transport, medicine." },
-      { "montant": "+Stability", "desc": "AHV funded sustainably without raising contributions \u2014 security for workers and retirees alike." },
-      { "montant": "+Time", "desc": "Federal tax return abolished \u2014 hours reclaimed every year." }
+      {
+        "montant": "\u2013CHF 1,800",
+        "desc": "Direct federal tax abolished for a median-income household \u2014 direct annual savings."
+      },
+      {
+        "montant": "\u20138.1%",
+        "desc": "VAT reduced on every daily purchase \u2014 food, clothing, transport, medicine."
+      },
+      {
+        "montant": "+Stability",
+        "desc": "AHV funded sustainably without raising contributions \u2014 security for workers and retirees alike."
+      },
+      {
+        "montant": "+Time",
+        "desc": "Federal tax return abolished \u2014 hours reclaimed every year."
+      }
     ],
     "box_montant": "~CHF 6",
     "box_label": "Monthly micro-tax on a salary of CHF 6,000",
@@ -79,10 +137,22 @@
     "titre": "Why this initiative is different",
     "sous": "Citizen-led, humanist, non-partisan \u2014 three words that are not slogans",
     "items": [
-      { "titre": "Citizen-led", "desc": "It does not come from a party, a lobby or a pressure group. It comes from citizens exercising a fundamental constitutional right \u2014 to directly propose an amendment to their country's fundamental law." },
-      { "titre": "Humanist", "desc": "It stems from a long-held and simple conviction: institutions and tax systems are tools created by humans to serve humans. When they no longer fulfil that role, they must be corrected." },
-      { "titre": "Non-partisan", "desc": "It is not morally neutral \u2014 it has clear values. But it owes nothing to any camp. It reduces taxes on labour (what the right demands) and taxes what merely grows wealth (what the left demands). It belongs to everyone." },
-      { "titre": "In service of people", "desc": "Behind every number, there is a concrete reality: rent paid, a health insurance premium absorbed, the end of the month made easier. Purchasing power restored. That is why this initiative exists." }
+      {
+        "titre": "Citizen-led",
+        "desc": "It does not come from a party, a lobby or a pressure group. It comes from citizens exercising a fundamental constitutional right \u2014 to directly propose an amendment to their country's fundamental law."
+      },
+      {
+        "titre": "Humanist",
+        "desc": "It stems from a long-held and simple conviction: institutions and tax systems are tools created by humans to serve humans. When they no longer fulfil that role, they must be corrected."
+      },
+      {
+        "titre": "Non-partisan",
+        "desc": "It is not morally neutral \u2014 it has clear values. But it owes nothing to any camp. It reduces taxes on labour (what the right demands) and taxes what merely grows wealth (what the left demands). It belongs to everyone."
+      },
+      {
+        "titre": "In service of people",
+        "desc": "Behind every number, there is a concrete reality: rent paid, a health insurance premium absorbed, the end of the month made easier. Purchasing power restored. That is why this initiative exists."
+      }
     ]
   },
   "comparaison": {
@@ -92,13 +162,41 @@
     "col_avant": "Today",
     "col_apres": "With this initiative",
     "rows": [
-      { "label": "Direct federal tax", "avant": "Levied on every salary", "apres": "Abolished for individuals" },
-      { "label": "VAT", "avant": "8.1% on most purchases", "apres": "Reduced \u2014 purchasing power restored" },
-      { "label": "Stamp duty", "avant": "On stock market transactions", "apres": "Abolished" },
-      { "label": "Tax return", "avant": "Complex annual obligation", "apres": "No longer required at federal level" },
-      { "label": "Speculative flows", "avant": "No significant taxation", "apres": "Taxed like any other transaction" },
-      { "label": "AHV (old-age insurance)", "avant": "Under pressure, recurring increases", "apres": "Sustainably funded" },
-      { "label": "Purchasing power", "avant": "Eroding every year", "apres": "Restored for every household" }
+      {
+        "label": "Direct federal tax",
+        "avant": "Levied on every salary",
+        "apres": "Abolished for individuals"
+      },
+      {
+        "label": "VAT",
+        "avant": "8.1% on most purchases",
+        "apres": "Reduced \u2014 purchasing power restored"
+      },
+      {
+        "label": "Stamp duty",
+        "avant": "On stock market transactions",
+        "apres": "Abolished"
+      },
+      {
+        "label": "Tax return",
+        "avant": "Complex annual obligation",
+        "apres": "No longer required at federal level"
+      },
+      {
+        "label": "Speculative flows",
+        "avant": "No significant taxation",
+        "apres": "Taxed like any other transaction"
+      },
+      {
+        "label": "AHV (old-age insurance)",
+        "avant": "Under pressure, recurring increases",
+        "apres": "Sustainably funded"
+      },
+      {
+        "label": "Purchasing power",
+        "avant": "Eroding every year",
+        "apres": "Restored for every household"
+      }
     ]
   },
   "objections": {
@@ -106,12 +204,30 @@
     "titre": "What opponents say \u2014 and the truth",
     "intro": "A humanist and non-partisan initiative has a duty to answer every objection honestly.",
     "items": [
-      { "q": "\u00ab The financial centre will flee. \u00bb", "r": "Hong Kong, Taiwan and the United Kingdom have taxed transactions for decades. Their financial centres remain among the most dynamic in the world. The real economy is not going anywhere." },
-      { "q": "\u00ab The 100 trillion figure is unverifiable. \u00bb", "r": "The first year is an audit year at a near-zero rate. No tax is abolished before the figures are certified. The initiative is built on prudence." },
-      { "q": "\u00ab It's a disguised Tobin tax. \u00bb", "r": "No. The Tobin tax targeted currencies. This initiative covers all electronic payments at a rate one hundred times lower \u2014 making it unprecedented and far more equitable." },
-      { "q": "\u00ab The wealthy will benefit too. \u00bb", "r": "Not everyone suffers in the same way. But the relief benefits everyone \u2014 and first and foremost those whose purchasing power is most constrained." },
-      { "q": "\u00ab It's a left-wing initiative. \u00bb", "r": "It reduces taxes on labour (what the right demands) and taxes what merely grows wealth (what the left demands). It is humanist and non-partisan." },
-      { "q": "\u00ab The cantons will lose their autonomy. \u00bb", "r": "The initiative only affects federal taxes. Each canton remains entirely in control of its own taxation." }
+      {
+        "q": "\u00ab The financial centre will flee. \u00bb",
+        "r": "Hong Kong, Taiwan and the United Kingdom have taxed transactions for decades. Their financial centres remain among the most dynamic in the world. The real economy is not going anywhere."
+      },
+      {
+        "q": "\u00ab The 100 trillion figure is unverifiable. \u00bb",
+        "r": "The first year is an audit year at a near-zero rate. No tax is abolished before the figures are certified. The initiative is built on prudence."
+      },
+      {
+        "q": "\u00ab It's a disguised Tobin tax. \u00bb",
+        "r": "No. The Tobin tax targeted currencies. This initiative covers all electronic payments at a rate one hundred times lower \u2014 making it unprecedented and far more equitable."
+      },
+      {
+        "q": "\u00ab The wealthy will benefit too. \u00bb",
+        "r": "Not everyone suffers in the same way. But the relief benefits everyone \u2014 and first and foremost those whose purchasing power is most constrained."
+      },
+      {
+        "q": "\u00ab It's a left-wing initiative. \u00bb",
+        "r": "It reduces taxes on labour (what the right demands) and taxes what merely grows wealth (what the left demands). It is humanist and non-partisan."
+      },
+      {
+        "q": "\u00ab The cantons will lose their autonomy. \u00bb",
+        "r": "The initiative only affects federal taxes. Each canton remains entirely in control of its own taxation."
+      }
     ]
   },
   "signer_section": {
@@ -120,10 +236,22 @@
     "sous": "A citizen-led, humanist, non-partisan act",
     "intro": "By signing, you do not join any party. You simply affirm that a just society is one where the tax system serves people.",
     "etapes": [
-      { "titre": "Download the signature sheet for your municipality", "desc": "Enter your municipality. You will receive a pre-filled signature sheet." },
-      { "titre": "Fill in by hand", "desc": "Last name, first name, date of birth and signature \u2014 all handwritten, in ink." },
-      { "titre": "Have your family and friends sign", "desc": "Up to 20 signatures per sheet, all from the same municipality." },
-      { "titre": "Send the sheet back to us", "desc": "By post using the prepaid return envelope, or at a collection stand near you." }
+      {
+        "titre": "Download the signature sheet for your municipality",
+        "desc": "Enter your municipality. You will receive a pre-filled signature sheet."
+      },
+      {
+        "titre": "Fill in by hand",
+        "desc": "Last name, first name, date of birth and signature \u2014 all handwritten, in ink."
+      },
+      {
+        "titre": "Have your family and friends sign",
+        "desc": "Up to 20 signatures per sheet, all from the same municipality."
+      },
+      {
+        "titre": "Send the sheet back to us",
+        "desc": "By post using the prepaid return envelope, or at a collection stand near you."
+      }
     ]
   },
   "signer_page": {
@@ -176,12 +304,30 @@
     "titre": "Rules to follow for your signature to be valid",
     "sous": "An invalid signature is a lost signature. These rules are simple but absolute.",
     "items": [
-      { "titre": "Same municipality on the entire sheet", "desc": "All signatories on the same sheet must be registered in the same municipality. Do not mix municipalities." },
-      { "titre": "Everything by hand", "desc": "Last name, first name, date of birth and signature must be written by hand, in ink. No printing, no stamps." },
-      { "titre": "Swiss citizens of voting age only", "desc": "Only Swiss nationals aged 18 or over who are registered on the electoral roll of their municipality may sign." },
-      { "titre": "Only once", "desc": "Signing twice \u2014 even on two different sheets \u2014 invalidates both signatures. One signature per person." },
-      { "titre": "After official publication", "desc": "No signature collected before publication in the Federal Gazette is valid. The date appears on each sheet." },
-      { "titre": "Return before the deadline", "desc": "Sheets must reach us early enough for us to send them to the municipalities for attestation. Plan ahead." }
+      {
+        "titre": "Same municipality on the entire sheet",
+        "desc": "All signatories on the same sheet must be registered in the same municipality. Do not mix municipalities."
+      },
+      {
+        "titre": "Everything by hand",
+        "desc": "Last name, first name, date of birth and signature must be written by hand, in ink. No printing, no stamps."
+      },
+      {
+        "titre": "Swiss citizens of voting age only",
+        "desc": "Only Swiss nationals aged 18 or over who are registered on the electoral roll of their municipality may sign."
+      },
+      {
+        "titre": "Only once",
+        "desc": "Signing twice \u2014 even on two different sheets \u2014 invalidates both signatures. One signature per person."
+      },
+      {
+        "titre": "After official publication",
+        "desc": "No signature collected before publication in the Federal Gazette is valid. The date appears on each sheet."
+      },
+      {
+        "titre": "Return before the deadline",
+        "desc": "Sheets must reach us early enough for us to send them to the municipalities for attestation. Plan ahead."
+      }
     ]
   },
   "contact": {

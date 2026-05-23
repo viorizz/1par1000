@@ -2,6 +2,7 @@ import { locales, type Locale } from "@/proxy";
 import { getDictionary } from "@/lib/i18n";
 import { Hero } from "@/components/Hero";
 import { Preamble } from "@/components/Preamble";
+import { Metaphor } from "@/components/Metaphor";
 import { Stats } from "@/components/Stats";
 import { PurchasingPower } from "@/components/PurchasingPower";
 import { Identity } from "@/components/Identity";
@@ -24,6 +25,7 @@ export default async function LandingPage({
     <main>
       <Hero lang={lang} dict={dict} />
       <Preamble dict={dict} />
+      <Metaphor dict={dict} />
       <Stats dict={dict} />
       <PurchasingPower dict={dict} />
       <Identity dict={dict} />

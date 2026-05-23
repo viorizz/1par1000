@@ -43,18 +43,64 @@
     "p6": "Diese Initiative gehört keiner Partei. Sie gehört jedem Menschen, der daran glaubt, dass eine gerechte Gesellschaft eine Gesellschaft ist, in der das Steuersystem dem Menschen dient — und nicht der Mensch dem System.",
     "signature": "Das Initiativkomitee — Schweizer Bürgerinnen und Bürger unterschiedlicher Überzeugungen, vereint durch eine gemeinsame humanistische Haltung."
   },
+  "metaphore": {
+    "label": "Einfach erklärt",
+    "titre": "Ein Blatt von tausend gepflückt.",
+    "sous": "Der Baum spürt nichts. Der Wald verändert alles.",
+    "p1": "Stellen Sie sich einen riesigen Wald vor. Von jedem Baum wird ein Blatt von tausend gepflückt. Der Baum merkt es nicht — in der nächsten Saison ist es nachgewachsen. Doch mit den Blättern aller Bäume des Waldes lässt sich ein ganzes Dorf beschirmen, heizen und ernähren.",
+    "p2_before": "Genau das schlägt diese Initiative vor: einen Franken pro tausend auf elektronische Transaktionen.",
+    "p2_strong": "Unspürbar für jeden Einzelnen. Entscheidend für alle.",
+    "cards": [
+      {
+        "titre": "1 Blatt",
+        "desc": "von tausend pro Transaktion gepflückt. Der Baum — derjenige, der zahlt — spürt nichts. Seine Vitalität bleibt intakt."
+      },
+      {
+        "titre": "Der Wald",
+        "desc": "100'000 Milliarden Transaktionen jährlich. Millionen von Bäumen. Millionen von Blättern für das Gemeinwohl."
+      },
+      {
+        "titre": "Das Dorf",
+        "desc": "Sie. Ihre Familie. Ihr Nachbar. Ihre Bundessteuer abgeschafft. Ihre Mehrwertsteuer gesenkt. Ihre Kaufkraft zurückgewonnen."
+      }
+    ]
+  },
   "chiffres": {
     "label": "Die Fakten",
     "titre": "Zahlen, die alles verändern",
     "sous": "Bürgerinitiative, humanistisch und überparteilich — im Dienst des Menschen",
     "intro": "In der Schweiz fliessen jährlich 100'000 Milliarden Franken über elektronische Kanäle — 125-mal das BIP des Landes — ohne nennenswerten steuerlichen Beitrag. Ein einziger Franken pro Tausend genügt, um die Logik umzukehren und die Kaufkraft jedes Haushalts wiederherzustellen.",
     "items": [
-      { "nb": "100'000", "titre": "Milliarden CHF/Jahr", "desc": "an elektronischen Transaktionen. 125-mal das BIP. Heute ohne realen steuerlichen Beitrag." },
-      { "nb": "1‰", "titre": "Vorgeschlagener Satz", "desc": "Ein Franken pro tausend Franken. Kaum spürbar bei jeder Transaktion. Entscheidend für das Gemeinwohl." },
-      { "nb": "~100", "titre": "Milliarden Einnahmen/Jahr", "desc": "Um die direkte Bundessteuer abzuschaffen, die MWST zu senken und die AHV nachhaltig zu finanzieren." },
-      { "nb": "4'500+", "titre": "CHF pro Haushalt / Jahr", "desc": "Echte Kaufkraft wiederhergestellt. Konkret, sofort, für jede Schweizer Familie." },
-      { "nb": "0", "titre": "Direkte Bundessteuer", "desc": "Abgeschafft für natürliche Personen. Keine Bundessteuererklärung mehr." },
-      { "nb": "3", "titre": "Abgeschaffte Steuern", "desc": "MWST gesenkt, direkte Bundessteuer abgeschafft, Stempelabgabe abgeschafft." }
+      {
+        "nb": "100'000",
+        "titre": "Milliarden CHF/Jahr",
+        "desc": "an elektronischen Transaktionen. 125-mal das BIP. Heute ohne realen steuerlichen Beitrag."
+      },
+      {
+        "nb": "1‰",
+        "titre": "Vorgeschlagener Satz",
+        "desc": "Ein Franken pro tausend Franken. Kaum spürbar bei jeder Transaktion. Entscheidend für das Gemeinwohl."
+      },
+      {
+        "nb": "~100",
+        "titre": "Milliarden Einnahmen/Jahr",
+        "desc": "Um die direkte Bundessteuer abzuschaffen, die MWST zu senken und die AHV nachhaltig zu finanzieren."
+      },
+      {
+        "nb": "4'500+",
+        "titre": "CHF pro Haushalt / Jahr",
+        "desc": "Echte Kaufkraft wiederhergestellt. Konkret, sofort, für jede Schweizer Familie."
+      },
+      {
+        "nb": "0",
+        "titre": "Direkte Bundessteuer",
+        "desc": "Abgeschafft für natürliche Personen. Keine Bundessteuererklärung mehr."
+      },
+      {
+        "nb": "3",
+        "titre": "Abgeschaffte Steuern",
+        "desc": "MWST gesenkt, direkte Bundessteuer abgeschafft, Stempelabgabe abgeschafft."
+      }
     ]
   },
   "pouvoir": {
@@ -63,10 +109,22 @@
     "sous": "Was diese Initiative in Ihrem Alltag verändert",
     "intro": "Das sind keine buchhalterischen Abstraktionen. Das sind Franken, die in Ihrer Tasche bleiben — jeden Monat, jedes Jahr.",
     "items": [
-      { "montant": "–CHF 1'800", "desc": "Direkte Bundessteuer abgeschafft für einen Haushalt mit Medianeinkommen — direkte jährliche Ersparnis." },
-      { "montant": "–8,1%", "desc": "MWST gesenkt auf jeden Alltagseinkauf — Lebensmittel, Kleidung, Transport, Medikamente." },
-      { "montant": "+Stabilität", "desc": "AHV nachhaltig finanziert ohne Erhöhung der Beiträge — Sicherheit für Erwerbstätige und Rentner." },
-      { "montant": "+Zeit", "desc": "Bundessteuererklärung abgeschafft — jedes Jahr Stunden zurückgewonnen." }
+      {
+        "montant": "–CHF 1'800",
+        "desc": "Direkte Bundessteuer abgeschafft für einen Haushalt mit Medianeinkommen — direkte jährliche Ersparnis."
+      },
+      {
+        "montant": "–8,1%",
+        "desc": "MWST gesenkt auf jeden Alltagseinkauf — Lebensmittel, Kleidung, Transport, Medikamente."
+      },
+      {
+        "montant": "+Stabilität",
+        "desc": "AHV nachhaltig finanziert ohne Erhöhung der Beiträge — Sicherheit für Erwerbstätige und Rentner."
+      },
+      {
+        "montant": "+Zeit",
+        "desc": "Bundessteuererklärung abgeschafft — jedes Jahr Stunden zurückgewonnen."
+      }
     ],
     "box_montant": "~CHF 6",
     "box_label": "Monatliche Mikrosteuer auf einem Lohn von CHF 6'000",
@@ -79,10 +137,22 @@
     "titre": "Warum diese Initiative anders ist",
     "sous": "Bürgerlich, humanistisch, überparteilich — drei Worte, die keine Slogans sind",
     "items": [
-      { "titre": "Bürgerlich", "desc": "Sie kommt nicht von einer Partei, einer Lobby oder einer Interessengruppe. Sie kommt von Bürgerinnen und Bürgern, die ein verfassungsmässiges Grundrecht ausüben — direkt eine Änderung des Grundgesetzes ihres Landes vorzuschlagen." },
-      { "titre": "Humanistisch", "desc": "Sie geht von einer alten und einfachen Überzeugung aus: Institutionen und Steuersysteme sind Werkzeuge, die von Menschen für Menschen geschaffen wurden. Wenn sie diese Aufgabe nicht mehr erfüllen, müssen sie korrigiert werden." },
-      { "titre": "Überparteilich", "desc": "Sie ist nicht moralisch neutral — sie hat klare Werte. Aber sie verdankt keinem Lager etwas. Sie senkt die Steuern auf Arbeit (was die Rechte fordert) und besteuert, was nur Rendite erwirtschaftet (was die Linke fordert). Sie gehört allen." },
-      { "titre": "Im Dienst des Menschen", "desc": "Hinter jeder Zahl steht eine konkrete Realität: eine bezahlte Miete, eine bewältigte Krankenkassenprämie, ein aufgeatmetes Monatsende. Wiederhergestellte Kaufkraft. Dafür gibt es diese Initiative." }
+      {
+        "titre": "Bürgerlich",
+        "desc": "Sie kommt nicht von einer Partei, einer Lobby oder einer Interessengruppe. Sie kommt von Bürgerinnen und Bürgern, die ein verfassungsmässiges Grundrecht ausüben — direkt eine Änderung des Grundgesetzes ihres Landes vorzuschlagen."
+      },
+      {
+        "titre": "Humanistisch",
+        "desc": "Sie geht von einer alten und einfachen Überzeugung aus: Institutionen und Steuersysteme sind Werkzeuge, die von Menschen für Menschen geschaffen wurden. Wenn sie diese Aufgabe nicht mehr erfüllen, müssen sie korrigiert werden."
+      },
+      {
+        "titre": "Überparteilich",
+        "desc": "Sie ist nicht moralisch neutral — sie hat klare Werte. Aber sie verdankt keinem Lager etwas. Sie senkt die Steuern auf Arbeit (was die Rechte fordert) und besteuert, was nur Rendite erwirtschaftet (was die Linke fordert). Sie gehört allen."
+      },
+      {
+        "titre": "Im Dienst des Menschen",
+        "desc": "Hinter jeder Zahl steht eine konkrete Realität: eine bezahlte Miete, eine bewältigte Krankenkassenprämie, ein aufgeatmetes Monatsende. Wiederhergestellte Kaufkraft. Dafür gibt es diese Initiative."
+      }
     ]
   },
   "comparaison": {
@@ -92,13 +162,41 @@
     "col_avant": "Heute",
     "col_apres": "Mit dieser Initiative",
     "rows": [
-      { "label": "Direkte Bundessteuer", "avant": "Auf jedem Lohn erhoben", "apres": "Abgeschafft für natürliche Personen" },
-      { "label": "MWST", "avant": "8,1% auf den meisten Einkäufen", "apres": "Gesenkt — Kaufkraft wiederhergestellt" },
-      { "label": "Stempelabgabe", "avant": "Auf Börsentransaktionen", "apres": "Abgeschafft" },
-      { "label": "Steuererklärung", "avant": "Komplexe jährliche Pflicht", "apres": "Auf Bundesebene nicht mehr nötig" },
-      { "label": "Spekulative Geldflüsse", "avant": "Keine nennenswerte Besteuerung", "apres": "Besteuert wie jede Transaktion" },
-      { "label": "AHV", "avant": "Unter Druck, wiederkehrende Erhöhungen", "apres": "Nachhaltig finanziert" },
-      { "label": "Kaufkraft", "avant": "Schwindet jedes Jahr", "apres": "Für jeden Haushalt wiederhergestellt" }
+      {
+        "label": "Direkte Bundessteuer",
+        "avant": "Auf jedem Lohn erhoben",
+        "apres": "Abgeschafft für natürliche Personen"
+      },
+      {
+        "label": "MWST",
+        "avant": "8,1% auf den meisten Einkäufen",
+        "apres": "Gesenkt — Kaufkraft wiederhergestellt"
+      },
+      {
+        "label": "Stempelabgabe",
+        "avant": "Auf Börsentransaktionen",
+        "apres": "Abgeschafft"
+      },
+      {
+        "label": "Steuererklärung",
+        "avant": "Komplexe jährliche Pflicht",
+        "apres": "Auf Bundesebene nicht mehr nötig"
+      },
+      {
+        "label": "Spekulative Geldflüsse",
+        "avant": "Keine nennenswerte Besteuerung",
+        "apres": "Besteuert wie jede Transaktion"
+      },
+      {
+        "label": "AHV",
+        "avant": "Unter Druck, wiederkehrende Erhöhungen",
+        "apres": "Nachhaltig finanziert"
+      },
+      {
+        "label": "Kaufkraft",
+        "avant": "Schwindet jedes Jahr",
+        "apres": "Für jeden Haushalt wiederhergestellt"
+      }
     ]
   },
   "objections": {
@@ -106,12 +204,30 @@
     "titre": "Was die Gegner sagen — und die Wahrheit",
     "intro": "Eine humanistische und überparteiliche Initiative muss jede Einwand ehrlich beantworten.",
     "items": [
-      { "q": "«Der Finanzplatz wird abwandern.»", "r": "Hongkong, Taiwan und das Vereinigte Königreich besteuern Transaktionen seit Jahrzehnten. Ihre Finanzplätze gehören nach wie vor zu den dynamischsten der Welt. Die Realwirtschaft wird nirgendwohin gehen." },
-      { "q": "«Die 100'000 Milliarden sind nicht überprüfbar.»", "r": "Das erste Jahr ist ein Audit-Jahr mit einem nahezu Null-Satz. Keine Steuer wird abgeschafft, bevor die Zahlen zertifiziert sind. Die Initiative ist auf Vorsicht aufgebaut." },
-      { "q": "«Das ist eine getarnte Tobin-Steuer.»", "r": "Nein. Die Tobin-Steuer zielte auf Devisen. Diese Initiative erfasst alle elektronischen Zahlungen zu einem hundertmal niedrigeren Satz — was sie einzigartig und weitaus gerechter macht." },
-      { "q": "«Die Reichen profitieren auch davon.»", "r": "Nicht alle leiden auf dieselbe Weise. Doch die Entlastung kommt allen zugute — und in erster Linie jenen, deren Kaufkraft am stärksten eingeschränkt ist." },
-      { "q": "«Das ist eine linke Initiative.»", "r": "Sie senkt die Steuern auf Arbeit (was die Rechte fordert) und besteuert, was nur Rendite erwirtschaftet (was die Linke fordert). Sie ist humanistisch und überparteilich." },
-      { "q": "«Die Kantone verlieren ihre Autonomie.»", "r": "Die Initiative betrifft ausschliesslich die Bundessteuern. Jeder Kanton bleibt vollständig Herr über seine eigene Steuerhoheit." }
+      {
+        "q": "«Der Finanzplatz wird abwandern.»",
+        "r": "Hongkong, Taiwan und das Vereinigte Königreich besteuern Transaktionen seit Jahrzehnten. Ihre Finanzplätze gehören nach wie vor zu den dynamischsten der Welt. Die Realwirtschaft wird nirgendwohin gehen."
+      },
+      {
+        "q": "«Die 100'000 Milliarden sind nicht überprüfbar.»",
+        "r": "Das erste Jahr ist ein Audit-Jahr mit einem nahezu Null-Satz. Keine Steuer wird abgeschafft, bevor die Zahlen zertifiziert sind. Die Initiative ist auf Vorsicht aufgebaut."
+      },
+      {
+        "q": "«Das ist eine getarnte Tobin-Steuer.»",
+        "r": "Nein. Die Tobin-Steuer zielte auf Devisen. Diese Initiative erfasst alle elektronischen Zahlungen zu einem hundertmal niedrigeren Satz — was sie einzigartig und weitaus gerechter macht."
+      },
+      {
+        "q": "«Die Reichen profitieren auch davon.»",
+        "r": "Nicht alle leiden auf dieselbe Weise. Doch die Entlastung kommt allen zugute — und in erster Linie jenen, deren Kaufkraft am stärksten eingeschränkt ist."
+      },
+      {
+        "q": "«Das ist eine linke Initiative.»",
+        "r": "Sie senkt die Steuern auf Arbeit (was die Rechte fordert) und besteuert, was nur Rendite erwirtschaftet (was die Linke fordert). Sie ist humanistisch und überparteilich."
+      },
+      {
+        "q": "«Die Kantone verlieren ihre Autonomie.»",
+        "r": "Die Initiative betrifft ausschliesslich die Bundessteuern. Jeder Kanton bleibt vollständig Herr über seine eigene Steuerhoheit."
+      }
     ]
   },
   "signer_section": {
@@ -120,10 +236,22 @@
     "sous": "Eine bürgerliche, humanistische, überparteiliche Geste",
     "intro": "Mit Ihrer Unterschrift treten Sie keiner Partei bei. Sie bekräftigen einfach, dass eine gerechte Gesellschaft eine Gesellschaft ist, in der das Steuersystem dem Menschen dient.",
     "etapes": [
-      { "titre": "Laden Sie die Liste für Ihre Gemeinde herunter", "desc": "Geben Sie Ihre Gemeinde an. Sie erhalten eine vorausgefüllte Unterschriftenliste." },
-      { "titre": "Füllen Sie alles von Hand aus", "desc": "Name, Vorname, Geburtsdatum und Unterschrift — alles handschriftlich, mit Tinte." },
-      { "titre": "Lassen Sie Ihr Umfeld unterschreiben", "desc": "Bis zu 20 Unterschriften pro Bogen, alle aus derselben Gemeinde." },
-      { "titre": "Senden Sie uns die Liste zurück", "desc": "Per Post mit dem beiliegenden Rückantwortcouvert oder an einem Sammelstand in Ihrer Nähe." }
+      {
+        "titre": "Laden Sie die Liste für Ihre Gemeinde herunter",
+        "desc": "Geben Sie Ihre Gemeinde an. Sie erhalten eine vorausgefüllte Unterschriftenliste."
+      },
+      {
+        "titre": "Füllen Sie alles von Hand aus",
+        "desc": "Name, Vorname, Geburtsdatum und Unterschrift — alles handschriftlich, mit Tinte."
+      },
+      {
+        "titre": "Lassen Sie Ihr Umfeld unterschreiben",
+        "desc": "Bis zu 20 Unterschriften pro Bogen, alle aus derselben Gemeinde."
+      },
+      {
+        "titre": "Senden Sie uns die Liste zurück",
+        "desc": "Per Post mit dem beiliegenden Rückantwortcouvert oder an einem Sammelstand in Ihrer Nähe."
+      }
     ]
   },
   "signer_page": {
@@ -176,12 +304,30 @@
     "titre": "Regeln, damit Ihre Unterschrift gültig ist",
     "sous": "Eine ungültige Unterschrift ist eine verlorene Unterschrift. Diese Regeln sind einfach, aber absolut.",
     "items": [
-      { "titre": "Gleiche Gemeinde auf dem ganzen Bogen", "desc": "Alle Unterzeichnenden eines Bogens müssen in derselben Gemeinde wohnhaft sein. Mischen Sie keine Gemeinden." },
-      { "titre": "Alles von Hand", "desc": "Name, Vorname, Geburtsdatum und Unterschrift müssen handschriftlich mit Tinte geschrieben werden. Kein Ausdruck, kein Stempel." },
-      { "titre": "Nur volljährige Schweizer Staatsbürger", "desc": "Nur Schweizer Staatsangehörige ab 18 Jahren, die im Stimmregister ihrer Gemeinde eingetragen sind, dürfen unterschreiben." },
-      { "titre": "Nur einmal", "desc": "Zweimal unterschreiben — auch auf zwei verschiedenen Bögen — macht beide Unterschriften ungültig. Eine einzige Unterschrift pro Person." },
-      { "titre": "Nach der offiziellen Publikation", "desc": "Keine vor der Veröffentlichung im Bundesblatt gesammelte Unterschrift ist gültig. Das Datum steht auf jeder Liste." },
-      { "titre": "Rücksendung vor Ablauf der Frist", "desc": "Die Listen müssen uns rechtzeitig erreichen, damit wir sie zur Beglaubigung an die Gemeinden weiterleiten können. Planen Sie voraus." }
+      {
+        "titre": "Gleiche Gemeinde auf dem ganzen Bogen",
+        "desc": "Alle Unterzeichnenden eines Bogens müssen in derselben Gemeinde wohnhaft sein. Mischen Sie keine Gemeinden."
+      },
+      {
+        "titre": "Alles von Hand",
+        "desc": "Name, Vorname, Geburtsdatum und Unterschrift müssen handschriftlich mit Tinte geschrieben werden. Kein Ausdruck, kein Stempel."
+      },
+      {
+        "titre": "Nur volljährige Schweizer Staatsbürger",
+        "desc": "Nur Schweizer Staatsangehörige ab 18 Jahren, die im Stimmregister ihrer Gemeinde eingetragen sind, dürfen unterschreiben."
+      },
+      {
+        "titre": "Nur einmal",
+        "desc": "Zweimal unterschreiben — auch auf zwei verschiedenen Bögen — macht beide Unterschriften ungültig. Eine einzige Unterschrift pro Person."
+      },
+      {
+        "titre": "Nach der offiziellen Publikation",
+        "desc": "Keine vor der Veröffentlichung im Bundesblatt gesammelte Unterschrift ist gültig. Das Datum steht auf jeder Liste."
+      },
+      {
+        "titre": "Rücksendung vor Ablauf der Frist",
+        "desc": "Die Listen müssen uns rechtzeitig erreichen, damit wir sie zur Beglaubigung an die Gemeinden weiterleiten können. Planen Sie voraus."
+      }
     ]
   },
   "contact": {
