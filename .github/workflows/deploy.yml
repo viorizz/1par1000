@@ -1,0 +1,63 @@
+# .github/workflows/deploy.yml
+
+name: Build and Deploy to Infomaniak
+
+on:
+  push:
+    branches:
+      - main # This triggers the script every time you push to the main branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Get the latest code from your repo
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Set up Node.js 24 environment
+      - name: Use Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: "npm"
+
+      # 3. Install dependencies and build the project
+      - name: Install and Build
+        run: |
+          npm install
+          npm run build
+
+      # 4. Sync files to Infomaniak via FTP
+      # This step only sends the files you actually need to run the site
+      - name: Sync to Infomaniak
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # Path on Infomaniak server. Use the "Web" folder usually.
+          server-dir: /sites/1par1000.ch
+          # We exclude source files because the site is already built
+          exclude: |
+            **/.git*
+            **/.github*
+            **/node_modules/**
+            src/
+            README.md
+            .gitignore
+
+      # 5. Tell Infomaniak to refresh the application
+      # Note: This requires the SSH_PRIVATE_KEY secret.
+      # If you don't have it yet, you can delete this step.
+      #- name: Restart Node.js Process
+      #  uses: appleboy/ssh-action@v1.0.3
+      #  with:
+      #    host: ${{ secrets.SSH_HOST }}
+      #    username: ${{ secrets.SSH_USERNAME }}
+      #    key: ${{ secrets.SSH_PRIVATE_KEY }}
+      #    script: |
+      #      cd /web/
+      #      mkdir -p tmp
+      #      touch tmp/restart.txt
